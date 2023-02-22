@@ -1,0 +1,2077 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello","hlo","helloo","hellooooi","ooi",
+        "hey",
+        "hi","hii","haii",
+        "hai",
+        "good day",
+        "Greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": [
+        "Hello!",
+        "Hey!",
+        "What can I do for you?"
+      ]
+    },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me SANA","I'm SANA","I'm SANA your virtual assistant"]
+  },
+
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college","courses provided by the college","departments in college"],
+  "responses": ["Computer science and engineering.\n Electrical and electronics engineering.\n Electronics and communication engineering.\n Mechanical Engineering.\n Civil Engineering"]
+  },
+
+    {"tag": "fullformofsana",
+      "patterns": ["what does sana stands for","what is the full form of sana","what does sana means","expansion of sana"],
+      "reponses": ["sophisticated analytic network assist"]
+    },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be B.Tech or M.tech course", "how long will it take to complete B.tech or M.tech course","how many years it will take to complete b.tech or m.tech","duration of b.tech or m.tech courses","how much time it would take to complete b tech or m tech courses","course duration of b tech or m tech courses"],
+  "responses": ["Our college offers 4 year long B.tech course and 2 year long M.tech course."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","how many kilometers from mananthavady","exact place of college","land mark near college","where is gecw located"],
+  "responses": ["https://www.google.com/maps?f=q&source=embed&hl=ml&geocode&q=mananthavady+engineering+college&aq&sll=37.0625,-95.677068&sspn=39.371738,86.572266&ie=UTF8&hq=mananthavady+engineering+college&hnear&radius=15000&t=m&ll=11.833727,75.970272&spn=0.071946,0.071946"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year","details about one academic year","year details","numbers of semesters in an academic year"],
+  "responses": ["There are two semesters in a year."]
+  },
+
+  {"tag": "semduration",
+  "patterns": ["how many months are there in a semester or sem","how long will be a single semester or sem","semester or sem details","how long will it take to complete one semester","number of months in one semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentrequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements","required documents for admission","what documents students should carry or bring at the time of admission","what should i carry when iam joining the college","what should i bring while taking admission"],
+  "responses": ["10th and 12th class marksheet\n10th and 12th class passing certificates\nEntrance exam rank card and admit card\nDomicile certificate\nCharacter certificates\nCategory certificate\nPassport size photograph"]
+  },
+
+  {"tag": "periods",
+  "patterns": ["how many periods will be there in a day","how long are the classes?","periods","how many hours per day","details of hours","what about the teaching hours in college"],
+  "responses": ["There is 6 periods per day. Each class will be of 1 hour."]
+  },
+
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern","details of exams","tell me about exams","how is the qualification criteria for exams","exams","assignment mark and details"],
+  "responses": ["There are 2 assignments which carry 5 mark each(total 10),2 internal exams of 20 mark each and an end semester examination conducted by university."]
+  },
+
+  {"tag": "collegetiming",
+  "patterns": ["class starting and ending time","when classes will start","when classes end","college working hours","college timing","when college starts","when college ends","when will college open","when will college ends"],
+  "responses": ["College classes starts at 9.30 AM and ends on 4.30 PM"]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program","details of non academic activities","fun activities","programs conducted by college","what are the entertainment activities conducted in college"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, arts fest, Holi festival,onam celebration,diwali and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college","facilities of college","what are the facilities of college for students", "what are the college infrastructures ","why should i choose this college","what makes this college special"],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, seminar hall, canteen, parking space,Hostel facility for girls and boys,Gym,basket ball court,college ground,open auditorium and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","fee","what is the fee structure","details of b.tech fee","how much should i pay in each semester","is the college following government fee structure","fees in college"],
+  "responses": ["https://www.gecwyd.ac.in/fee-structure-b-tech-students/"]
+  },
+  {
+    "tag": "csehod",
+    "patterns": [
+      "cse HOD","who is in head of cse department",
+      "who is the hod cse department","name of cs department head",
+      "head of department of cse","cs hod","cs dept hod","computer science and engineering department hod"],
+    "responses": ["Dr.Gilesh MP"]
+  },
+  {
+    "tag": "eeehod",
+    "patterns": [
+      "eee HOD","name of eee hod",
+      "who is the hod of eee department","electrical and electronics engineering department hod",
+      "head of department of eee","electrical hod"],
+    "responses": ["Dr.Jayaprakash P"]
+  },
+  {
+    "tag": "ecehod",
+    "patterns": [
+      "ece HOD","ec hod","electronics department hod","name of ec hod",
+      "who is the hod ece department","electronics and communication engineering department hod",
+      "head of department of ece"],
+    "responses": ["Prof: Premanand B."]
+  },
+  {
+    "tag": "mehod",
+    "patterns": [
+      "me HOD","mech hod","hod of mech department",
+      "who is the hod me department","mechanical engineering department hod","head of mech",
+      "head of department of me"],
+    "responses": ["Dr.Mohandas VP"]
+  },
+  {
+    "tag": "cehod",
+    "patterns": [
+      "ce HOD","civil department hod","civil engineering department hod",
+      "who is the hod ce department","name of civil department head",
+      "head of department of ce"],
+    "responses": ["Prof : Pavan Kumar C"]
+  },
+  {
+    "tag": "collegebus",
+    "patterns": [
+      "college bus",
+      "Bus timing","details of college bus","student transportation facility in college","bus facility in college",
+      "Is college Bus available in college"],
+    "responses": ["The College takes care of the transportation of the students and staff from Mananthavady to the college campus. At present 4 college buses are available and are flying from Mananthanavdy to College, Thalapuzha to college and Vincent Giri to college.Dr. Hashim.M., Associate Professor in Mechanical Engg., is in charge of the college bus.(https://www.gecwyd.ac.in/facilities/college-bus/)"]
+  },
+  {
+    "tag": "nbaaccreditation",
+    "patterns":  ["Which branch has NBA acreditation","NBA accreditation in college","Is CSE is acredited","details of nba acreditation in college","which department has acreditation in government engineering college wayanad"],
+    "responses":["B.Tech.in computer Science and Engineering has been acredited by NBA"]
+  },
+  {
+    "tag":"Foundadtionofcollege",
+    "patterns": ["details about the college orgin","who founded this college","in which phase of quality improvement is this college is founded","foundation of college"],
+    "responses":["The college is founded by Techniacal education quality improvement program phase II."]
+  },
+
+  {
+    "tag":"universityaffiliation",
+    "patterns":["this college is affiliated to which university","under which university","this college belongs to which university","which university is this college","university affiliation"],
+    "responses":["This college is affiliated to APJ Abdul Kalam Technological University"]
+  },
+
+  {
+    "tag":"vissionofcollege",
+    "patterns":["what is the vision of this college","tell me about the vision of the college","what you are aiming by giving degree or education to a student in this college","vision of college","views of college"],
+    "responses":["To create a better world driven by technology and rooted in values through enlightened & empowered engineers."]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya","its enough,bye"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {
+    "tag":"missionofcollege",
+    "patterns":["what is the mission of this college","what are the plans to do","tell me about the mission of college","mission of gecw","mission of college"],
+    "responses":["To impart quality engineering education and to develop high quality technocrats with ingenuity, creativity, innovation, leadership and ethical values for the integrity and prosperity of our nation."]
+  },
+  {
+    "tag":"addressofcollege",
+    "patterns":["give me the address of college","where is the college located","how can i reach to this college","address of college","address of government engineering college wayanad","location of gecw"],
+    "responses":["GOVERNMENT ENGINEERING COLLEGE WAYANAD THALAPPUZHA P.O. MANANTHAVADY, WAYANAD, KERALA, INDIA- 670644 Phone : Principal : 91-4935-257320 Off : 91-4935-257321 Fax : 91-4935-257320 E-Mail : principal@gecwyd.ac.in,info@gecwyd.ac.in Placement Cell : placement@gecwyd.ac.in Nearest Railway Station : Tellicherry(Thalasseri) - 71 KM Nearest Airport :Kannur International Airport - 59 KM"]
+  },
+  {
+    "tag":"contactdetails",
+    "patterns":["how can i contact the college","phone number of this college","how can call to this college","email id of principal","contact or phone number of principal"],
+    "responses":["Phone : Principal : 91-4935-257320 Off : 91-4935-257321 Fax : 91-4935-257320 E-Mail : principal@gecwyd.ac.in,info@gecwyd.ac.in"]
+  },
+
+  {
+    "tag":"nearestrailwaystation",
+    "patterns":["which is the nearest railway station","in which station i should depart while coming to this college","nearest railway station","how many kilometers to nearest railway station","how many kilometers to thalassey railway station from gecw"],
+    "responses":["Nearest Railway Station : Tellicherry(Thalasseri) - 71 KM"]
+  },
+
+  {
+    "tag":"nearestairport",
+    "patterns":["which is the nearest airport from college","where is the nearest airport located","nearest airport","how many kilometers to nearest airport from college","how much distance to kannur international airport from gecw"],
+    "responses":["Nearest Airport : Kannur International Airport - 59 KM"]
+  },
+
+  {
+    "tag":"collegemailid",
+    "patterns":["give me the college email id","what is the mail address of college or principal","college mail id"],
+    "responses":["E-Mail : principal@gecwyd.ac.in,info@gecwyd.ac.in"]
+  },
+
+  {
+    "tag":"tenders",
+    "patterns":["details of college tenders","tenders in college","purchase details in college","proposed items in college","tenders"],
+    "responses":["https://www.gecwyd.ac.in/tenders/"]
+  },
+
+  {
+    "tag":"teqip",
+    "patterns":["details of teqip II","tell me about Technical Education Quality Improvement Programme","teqip"],
+    "responses":["Technical Education Quality Improvement Programme (TEQIP) was envisaged as a long-term programme of about 10-12 years duration to be implemented in 2-3 phases for transformation of the Technical Education System with the World Bank assistance.As per TEQIP design, each phase is required to be designed on the basis of lessons learnt from the implementation of an earlier phase. TEQIP-I started a reform process in 127 Institutions. The reform process needs to be sustained and scaled-up for embedding gains in the system and taking the transformation to a higher level. To continue the development activities initiated through TEQIP-I, a sequel Project is planned as TEQIP-II."]
+  },
+
+  {
+    "tag":"teqipobjectives",
+    "patterns":["tell me the objectives of teqip II","strategies or implementation steps of teqip","what are the objectives of Technical Education Quality Improvement Programme (TEQIP)","teqip objectives"],
+    "responses":["The Project has following objectives:Strengthening Institutions to produce high quality engineers for better employability,Scaling-up postgraduate education and demand-driven Research & Development and Innovation,establishing Centers of Excellence for focused applicable research,Training of faculty for effective Teaching, and Enhancing Institutional and System Management effectiveness."]
+  },
+  {
+    "tag":"teqipidp",
+    "patterns":["details of teqip idp","teqip idp annexures","teqip idp"],
+    "responses":["https://www.gecwyd.ac.in/teqip-ii/teqip-idp/"]
+  },
+
+  {
+    "tag":"teqipsar",
+    "patterns":["details of teqip SAR","student aid detials of teqip","teqip sar"],
+    "responses":["https://www.gecwyd.ac.in/sar/"]
+  },
+
+  {
+    "tag":"teqipmentorandauditors",
+    "patterns":["details of teqip mentors and auditors","performance and data auditors of teqip","teqip mentor and auditors"],
+    "responses":["https://www.gecwyd.ac.in/teqip-ii/mentor-performance-auditor/"]
+  },
+  {
+    "tag":"teqipactivityreport",
+    "patterns":["activity of report of teqip","2015-2016 teqip activity report","2016-17 teqip activity report","teqip activity report"],
+    "responses":["https://www.gecwyd.ac.in/teqip-ii-2/"]
+  },
+
+  {
+    "tag":"teqipgoodgovernance",
+    "patterns":["good governance  of teqip","teqip good governance"],
+    "responses":["http://www.teqipgoodgovernance.in/index.html"]
+  },
+  {
+    "tag":"teqipboardofgovernors",
+    "patterns":["board of governors of teqip","bog of teqip","list bog of teqip","teqip board of governors"],
+    "responses":["https://www.gecwyd.ac.in/teqip-ii/board-of-governorsbog/"]
+  },
+
+  {
+    "tag":"establishmentyear",
+    "patterns":["which year this college is established","who established this college","when did this college found","establishment year of college","when did this college start working"],
+    "responses":["Government Engineering college Wayanad(GECW) was established bt the government of kerala in 1999"]
+  },
+
+  {
+    "tag":"aboutcollege",
+    "patterns":["tell me about this college","please explain me about this college","history of this college","about college","say some words about this college"],
+    "responses":["Government Engineering College, Wayanad (GECW) was established by the Government of Kerala in 1999. From its humble beginning in the campus of Government College, Mananthavady the institution has grown to a prestigious institution for higher education in the northern part of the State. Three undergraduate course viz. Computer Science and Engineering, Electronics and Communication Engineering and Architecture were offered at the beginning. The college now offers B.Tech courses in Computer Science &Engg., Electronics and Communication Engg., Electrical and Electronics Engg and Mechanical Engg. (The architecture course was shifted to GEC Trissur). An M.Tech.course in Communication and Signal Processing is also being offered from 2011 and M.Tech course in Computer Science & Engineering Network & Security from 2014 onwards. GEC Wayanad is the only Engineering College in the backward district of Wayanad. Nine Hundred and Fifty Seven (957) students are pursuing their UG and 54 PG students are in M Tech courses in the GECW campus. Part Time B. Tech course is started in ECE branch. With a dedicated faculty and talented students, GEC Wayanad has the capacity to become the technology hub of this remote area of the State. The installation of High Performance Computing System is over and initiated steps to sign MoU with C-DAC to enhance the utility of this lab. Several items were received under this package and the installation is on the way. Modernization of various laboratories and workshops is almost complete.During 2014-15, an amount of Rs.311.13 lakh was spent under TEQIP and Rs.1573707/- under state fund for the procurement of new machineries and equipment. The total expenditure under various heads was Rs.591.46 lakh under TEQIP(under all heads) and Rs. 65498065/- under state fund (plan, non plan and special funds).Started B. Tech course in Mechanical Engineering, additional batch in Electronics and Communication Engineering, new M Tech in Computer Science and Engineering and part time program in Electronics and Communication Engineering.Hon.Chief Minister Shri.Oommen Chandy inaugurated boys hostel on 19.8.2014 and Hon. Minister Kum. P.K. Jayalakshmi inaugurated professor’s quarters and Hon. Minister for Education, Shri. P.K. Abdu Rabb inaugurated stadium on the same day. The foundation stone for N.G.O. Quarters were laid by Hon. M.P. of Wayanad Mr. M.A. Shanavas, Chairperson of Women’s Commission Smt. K. C. Rosakutty laid the foundation stone of the new ladies hostel on 19.8.2014."]
+  },
+
+  {
+    "tag":"mtechcourses",
+    "patterns":["which are the  M.Tech courses offered in this college","details of M.Tech courses in this college","m tech courses in college","what are the m tech courses offered here","what are the post graduation courses provided in this college"],
+    "responses":[" M.Tech.course in Communication and Signal Processing and M.Tech course in Computer Science & Engineering Network & Security"]
+  },
+
+  {
+    "tag":"funddetailsofteqip",
+    "patterns":["give me the fund details of teqip in college","how teqip spent in this college","fund details of teqip"],
+    "responses":["During 2014-15, an amount of Rs.311.13 lakh was spent under TEQIP and Rs.1573707/- under state fund for the procurement of new machineries and equipment. The total expenditure under various heads was Rs.591.46 lakh under TEQIP(under all heads) and Rs. 65498065/- under state fund (plan, non plan and special funds)."]
+  },
+
+  {
+    "tag":"mandatorydisclosure",
+    "patterns":["give me the brochure or mandatory disclosure of this college","pdf of details of this college","mandatory disclosure"],
+    "responses":["https://www.gecwyd.ac.in/mandatory-disclosure-2020-21/"]
+  },
+
+  {
+    "tag":"aicteextensionofapproval",
+    "patterns":["details of aicte-extension of approval","EoA 2019-20 2020-21 2021-22","aicte extension of approval"],
+    "responses":["https://www.gecwyd.ac.in/about-us/aicte-eoa/"]
+  },
+
+  {
+    "tag":"aicteeoareports",
+    "patterns":["details of aicte EoA reports","EoA 2011-12,2012-13,2013-14,2014-15,2015-16,2016-17,2017-18,2018-19,2019-2020,2020-21,2021-22","aicte eoa reports"],
+    "responses":["https://www.gecwyd.ac.in/aicte-eoa-roport/"]
+  },
+
+  {
+    "tag":["aicteapplicationdetails"],
+    "patterns":["details of application report of aicte","aicte application details"],
+    "responses":["https://www.gecwyd.ac.in/apllication-report-1/"]
+  },
+
+  {
+    "tag":"aicte",
+    "patterns":["aicte in college","aicte"],
+    "responses":["https://www.gecwyd.ac.in/about-us/aicte-eoa/"]
+  },
+
+  {
+    "tag":"apjktuaffiliation",
+    "patterns":["details apj ktu university affiliation 2015-16 2016-17 2017-18 2018-19 2019-20 2020-21","apj ktu affiliation"],
+    "responses":["https://www.gecwyd.ac.in/ktu-affiliation/"]
+  },
+
+  {
+    "tag":"awardsandachievements",
+    "patterns":["what are the awards and achievements of this college","tell me the remarkable honours to this college","awards and achievements","awards and achievements recieved by this college"],
+    "responses":["Aishwarya (CSE) placedin TCS,Mehanas (CSE) placed in TCS,KTU F-Zone chess womens champions& mens runners-up,National Service Scheme State Level Manaveeyam Award,District Level Third prize in Institutional cultivation by Agriculture Dept.,Directorate Level Best NSS Unit Award,Abid Tharavattath – Directorate Level Best NSS Programme Officer Award,Punarjjani Appreciation Award"]
+  },
+
+  {
+    "tag":"academicdetails",
+    "patterns":["give me the academic details of this college","what are the academic requirements for qualification","academic details"],
+    "responses":["https://www.gecwyd.ac.in/academics/"]
+  },
+
+  {
+    "tag":"minimumattendenceform",
+    "patterns":["application of attendance relaxing the minimum attendence requirement","application for students who have attendence shortage","minimium attendence application form","minimum attendence form"],
+    "responses":["https://www.gecwyd.ac.in/download-view/application-for-attendance-relaxing-the-minimum-attendance-requirement-2/"]
+  },
+
+  {
+    "tag":"semesterregistrationform",
+    "patterns":["give me the semester registration form","how can i register my sem","sem registration application form","semester registration form"],
+    "responses":["https://www.gecwyd.ac.in/download-view/semester-registration-application-form/"]
+  },
+
+  {
+    "tag":"declarationform",
+    "patterns":["give me the declaration form","how can i declare my datas in ktu portal or etlab is correct","declaration form"],
+    "responses":["https://www.gecwyd.ac.in/download-view/declaration-form/"]
+  },
+
+  {
+    "tag":"teqipforms",
+    "patterns":["give me the teqip form","provide the teqip form","teqip forms"],
+    "responses":["https://www.gecwyd.ac.in/academics/"]
+  },
+
+  {
+    "tag":"nonliabilitycertificate",
+    "patterns":["how can i get non liability certificate","give me the non-liability certificate","non-liability certificate"],
+    "responses":["https://www.gecwyd.ac.in/academics/"]
+  },
+
+  {
+    "tag":"applicationformforrefund",
+    "patterns":["how can i get application form for refund","give me the form for refund","where can i get application form for refund","how can i apply for refund","application form for refund"],
+    "responses":["https://www.gecwyd.ac.in/download-view/application-form-for-refund-of-fees/"]
+  },
+
+  {
+    "tag":"summerclassregistrationform",
+    "patterns":["how can i get summer class registration form","how can i join summer class","please provide me the summer class registration form","summer class registration form"],
+    "responses":["https://www.gecwyd.ac.in/academics/"]
+  },
+
+  {
+    "tag":"preregistrationform",
+    "patterns":["how can i get pre-registration form","where can i get the pre-registration form","pre registration form"],
+    "responses":["https://www.gecwyd.ac.in/academics/"]
+  },
+
+  {
+    "tag":"btechcsefacilities",
+    "patterns":["what are the facilities available in computer science and engineering (CSE) department","which are the labs and facilities providing in cse department","b tech cse facilities","cs department facilities"],
+    "responses":["Central Computing Facility,Systems Lab,Linux Lab,Multimedia Lab,Project Lab,Microprocessor Lab,Hardware Lab,Software Lab,Networks Lab,Department Library,Language Lab"]
+  },
+
+  {
+    "tag":"btechecefacilities",
+    "patterns":["what are the facilities available in electronics and communication engineering (ECE) department","which are the labs and facilities providing in ECE department","b tech ece facilities","ec department facilities"],
+    "responses":["Electronics Workshop,Basic Electronics Lab,Electronics Circuits Lab,Analog Communication Lab,Microprocessor/ Micro-controller Lab,Linear Integrated Circuits Lab,Digital Communication Lab,Advanced Communication/ Microwave Lab,Computer Network & Internet Lab,DSP Lab,Department Library"]
+  },
+
+  {
+    "tag":"btecheeefacilities",
+    "patterns":["what are the facilities available in Electrical and Electronics Engineering (EEE) department","which are the labs and facilities providing in EEE department","b tech eee facilities","eee department facilities"],
+    "responses":["Electrical Workshop,Electrical Machines Lab,Electronic Circuits Lab,LIC Lab,Digital Electronics Lab,Software Lab,Measurements Lab,Advanced Electrical Lab,Power Electronics Lab,Department Library"]
+  },
+
+  {
+    "tag":"btechmefacilities",
+    "patterns":["what are the facilities available in Mechanical Engineering (ME) department","which are the labs and facilities providing in ME department","b tech me facilities","mech department facilities"],
+    "responses":["Basic Mechanical Engineering Workshop,Basic Civil Engineering Workshop,Fluid Mechanics and Machinery Lab,Thermal Engineering / Heat Engine Lab"]
+  },
+
+  {
+    "tag":"mtechececommunicationengineeringandsignalprocessingfacilities",
+    "patterns":["what are the facilities available in mtech Communication Engineering and Signal Processing (ECE) department","which are the labs and facilities providing in m.tech ece(Communication Engineering and Signal Processing) department","m tech ece communication engineering and signal processing facilities"],
+    "responses":["Advanced Communication Lab,VLSI Lab,Embedded System Lab,DSP Lab"]
+  },
+
+  {
+    "tag":"mtechcsenetworksandsecurityfacilities",
+    "patterns":["what are the facilities available in mtech Computer science and Engineering (CSE-Networks & Security) department","which are the labs and facilities providing in m.tech cse(Networks & Security) department","m tech cse networks and security facilities"],
+    "responses":["Central Computing Facility,Systems Lab,Linux Lab,Project Lab,Software Lab,Networks Lab,Department Library"]
+  },
+
+  {
+    "tag":"regulationandsyllabus",
+    "patterns":["regulation and syllabus","show me the academic regulation and syllabus","academic-b.tech curriculum","academic-b.tech ordinance","academic - b.Tech Regulations"],
+    "responses":["https://ktu.edu.in/eu/acd/academicRegulation.htm"]
+  },
+
+  {
+    "tag":"sportsandartsclub",
+    "patterns":["sports and arts club","is there any sports club and arts club in this college","details about sports and arts club in this college","is the college conduct any sports and arts programs in college","who is in charge of physical education or sports club"],
+    "responses":["The college is having Sports and Arts Club, which conducts Inter-semester Sports & Games and many Arts competitions. The selected candidates are send to participate in the intercollegiate tournaments. Smt. Joly Thomas, Assistant Professor(Physical Education) is in charge of the club."]
+  },
+
+  {
+    "tag":"kannuruniversityintercollegefests",
+    "patterns":["kannur university inter college fests","details about inter college fests conducted by kannur university","which are the competitions conducted by colleges with other colleges","list of district level or state level competitions in college"],
+    "responses":["https://www.gecwyd.ac.in/community/clubs/sports-and-arts-club/"]
+  },
+
+  {
+    "tag":"sportsitem",
+    "patterns":["sports item","which are the sports items conducted in college","is the college conduct any sports competition in college","is the college conduct athletics,football chess or cricket in college"],
+    "responses":["1) Athletics,2) Foot ball,3) Volley ball,4) Cricket,5) Chess"]
+  },
+
+  {
+    "tag":"coachingcampsconducted",
+    "patterns":["coaching camps conducted","coaching camps conducted","which are the coaching camps conducted in college","is this college conduct any sports related training events","who are coaches came to college for training"],
+    "responses":["https://www.gecwyd.ac.in/community/clubs/sports-and-arts-club/"]
+  },
+
+  {
+    "tag":"friendlymatchesincollege",
+    "patterns":["friendly matches in college","details about friendly matches conducted in college","which are friendly matches held in college","matches of colleges with other colleges or clubs"],
+    "responses":["Football, chess, table tennis, ball badminton & cricket – Friendly matches conducted with other colleges and clubs.Cricket Friendly match between Teaching faculty & Ministerial staff,Cricket Friendly match between Staff and Students,Foot ball Friendly match between Staff and Students,Shuttle badminton match between Staff and Students."]
+  },
+
+  {
+    "tag":"activitypointsforintercollegefests",
+    "patterns":["details about activity points or internal marks for inter colleges competitions","when will get the activity points of inter college fests","details about physical fitness tests in college","activity points for inter college fests"],
+    "responses":["Internal Marks were awarded to the Seventh Semester students according to their attendance in the activity class, achievements in Inter University, intercollegiate, National, State, District, intramural participation, & physical fitness test conducted."]
+  },
+
+  {
+    "tag":"sportsrelatedfacilitiesincollege",
+    "patterns":["what are the facilities provided in college for sports activities","list of grounds and facilities of sports or physical education in college","sports related facilities in college"],
+    "responses":["Modern gymnasium,Judo Mat,Power Lifting set,Basket Ball court 1,Archery equipments"]
+  },
+
+  {
+    "tag":"groundandgym",
+    "patterns":["is Modern gymnasium available in college","is Judo Mat available in college","is Power Lifting set available in college","is Basket Ball court 1 available in college","is Archery equipments available in college","ground and gym"],
+    "responses":["yes"]
+  },
+
+  {
+    "tag":"staffclub",
+    "patterns":["details of staff club in college","is there any communities of staffs in college"],
+    "responses":["staff club","A staff club is functioning in the college to cater the recreational needs of the faculty, and to strengthen the interpersonal relationships among them. Occasionally the staff club organizes welcome and send-off parties, tour programs,  other entertainment programs and family get together. All faculty members are members of the staff club. The Principal is the ex-officio president of the staff club. Shabeer K P, Assistant Professor(CSE) is the secretary of staff club at present"]
+  },
+
+  {
+    "tag":"studentsunion",
+    "patterns":["is there any union in college","who are the members of college union","students union"],
+    "responses":["https://www.gecwyd.ac.in/community/students-union/"]
+  },
+
+  {
+    "tag":"grievanceredessalcell",
+    "patterns":["grievance redessal cell","explain about grievance redessal cell","is there any cell for grievance redessal cell"],
+    "responses":["https://www.gecwyd.ac.in/community/clubs/"]
+  },
+
+  {
+    "tag":"abouttbi",
+    "patterns":["explain about tbi","what is tbi","about tbi"],
+    "responses":["Technology Business Incubator at GEC, Wayanad is planned to provide a springboard to budding entrepreneurs who wish to launch themselves into the world of technology based business careers. In the Technology Business Incubator (TBI) bright ideas can be developed to a product or service using advanced technology solutions. This innovation centre is designed to provide all the support to make business ventures successful. This document outlines the details of support services available at TBI.TBI Manager: Prof. Muhammed Shafeeq EY, Asst. Professor (Mechanical Engineering.).Incubations:There are two TBI Start-ups functioning at GEC Wayanad. Both the start-ups are by Mr. Ajay Thomas  (Passed out) and Mr. Joice M Joseph (S7 CSE) from Department of Electronics and Communication Engineering and Department of Computer Science of this college, respectively. The companies currently functioning are Vatsaa, TechLibre Corp,Application inviting proposals to incubate in TBI.Technology Business Incubator of Government Engineering College  has decided to incubate startup ideas with innovative content. Students and entrepreneurs who have a solid idea or product can apply for incubation.For more details contact:TBI Manager- Prof. Muhammed Shafeeq E Y ,Asst. Professor, Department of Mechanical Engineering,Government Engineering College, Wayanad Phone: 944736302 Email : ey.shafeeq@gecwyd.ac.in "]
+  },
+
+  {
+    "tag":"tbicompanies",
+    "patterns":["which are the companies in tbi","companies related to tbi","tbi companies"],
+    "responses":["https://www.gecwyd.ac.in/tbi/"]
+  },
+
+  {
+    "tag":"iprcell",
+    "patterns":["explain about ipr cell in college","is there any ipr cell in college","ipr cell"],
+    "responses":["https://www.gecwyd.ac.in/community/ipr-cell/"]
+  },
+
+  {
+    "tag":"alumniassociationofcollege",
+    "patterns":["alumni association of college","what about the alumni association in college","who are the alumni members of this college","is there any alumni community in this college"],
+    "responses":["http://alumni.gecwyd.ac.in/"]
+  },
+
+  {
+    "tag":"collegecanteen",
+    "patterns":["college canteen","what about the college canteen in college","is there any facility for food in college surroundings","how can we get food in college","canteen","college canteen"],
+    "responses":["A canteen is functioning in the college premises, which provides sumptuous meals at a subsidized rate to students and staff. The canteen is managed by a committee headed by the Principal. On festive occasions, special lunch can be arranged with a made-to-order menu."]
+  },
+
+  {
+    "tag":"collegecouncil",
+    "patterns":["expian about the college council in college","who are the members of college council","college council"],
+    "responses":["https://www.gecwyd.ac.in/community/college-council/"]
+  },
+
+  {
+    "tag":"nationalserviceschemenss",
+    "patterns":["is nss unit available in college","national service scheme in college","national service scheme nss"],
+    "responses":["The NSS unit of the college began to function during its early years itself. Now, two aided units and one self financing unit of National Service Scheme are functioning in the college."]
+  },
+
+  {
+    "tag":"nssawards",
+    "patterns":["what are the awards achieved by nss unit in this college","honours received by nss(national service scheme) in this college","nss awards"],
+    "responses":["State Level Manaveeyam Award,Punarjjani Appreciation Award,Directorate Level Best Unit Award,Directorate Level Best Programme Officer Award - Abid Tharavattath,Directorate Level Best Volunteer Award - Abdul Vasih K A (S6 ECE1),Institutional Cultivation - Best public institution in Wayanad District  "]
+  },
+
+  {
+    "tag":"nssunitlead",
+    "patterns":["nss units","how many units of nss are there in college","who are leads of nss unit in this college","who are in charge of nss units in college","how many nss units are there and who are in charge of units"],
+    "responses":["1.Prof. Anas M M, Assistant Professor, ECE  - Unit No:168,2.Prof. Ridhin Raj V R, Assistant Professor, ME, Unit No: 263"]
+  },
+
+  {
+    "tag":"nssannualreport2016-17",
+    "patterns":["how can i get NSS Annual Report 2016-17","nss annual report 2016-17"],
+    "responses":["https://www.gecwyd.ac.in/community/nss/"]
+  },
+
+  {
+    "tag":"nssannualreport2015-16",
+    "patterns":["how can i get NSS Annual Report 2015-16","nss annual report 2015-16"],
+    "responses":["https://www.gecwyd.ac.in/community/nss/"]
+  },
+
+  {
+    "tag":"ieeeincollege",
+    "patterns":["details about ieee in college","ieee sb gecw details","who is the head of ieee sb gecw","ieee in college"],
+    "responses":["https://edu.ieee.org/in-gecw/"]
+  },
+
+  {
+    "tag":"ptaofcollege",
+    "patterns":["explain about the college pta","parents teachers association in college","what are the activities of pta in college","pta of college"],
+    "responses":["The Parent Teacher Association( PTA) of Government Engineering College Wayanad has been an effective and supportive forum for maintaining the discipline as well as sustenance of academic excellence in the campus. PTA committee meet frequently to transact various agenda pertaining to the development and discipline of the college.. A large number of developmental programmes have been taken up under  the patronage of PTA for the benefit of students and staff of the college. Funding for establishing departmental libraries, installing water treatment plants, enhancing transportation facilities, providing financial assistance for economically backward students of the college are some of these activities.. Moreover PTA instituted awards for best performing students in university examinations and also in extracurricular activities."]
+  },
+
+  {
+    "tag":"committeemembersofpta",
+    "patterns":["who are the members of pta in this college","office bearers of current committee of pta","present committee of pta in college","committee members of pta"],
+    "responses":["The present office bearers of the Parent Teacher Association are :President : Mr. Poulose U. A.,Secretary : Prof. C. K Raveendran, Associate Professor, Mechanical Engineering,Treasurer : Ms. Binatha C, Assistant Professor, Computer Science and Engineering"]
+  },
+
+  {
+    "tag":"presidentofpta",
+    "patterns":["who is the president of pta","who is in charge of pta in this college","president of pta"],
+    "responses":["Mr. Poulose U. A."]
+  },
+
+  {
+    "tag":"secretoryofpta",
+    "patterns":["who is the secretory of pta","secretory in charge of pta","secretory of pta"],
+    "responses":["Prof. C. K Raveendran, Associate Professor, Mechanical Engineering"]
+  },
+
+  {
+    "tag":"treasurerofpta",
+    "patterns":["who is the treasurer of pta","who is in charge of finance of pta","treasurer of pta"],
+    "responses":["Ms. Binatha C, Assistant Professor, Computer Science and Engineering"]
+  },
+
+  {
+    "tag":"wecreate",
+    "patterns":["explain wecreate club in college","we create"],
+    "responses":["https://www.gecwyd.ac.in/community/wecreate/"]
+  },
+
+  {
+    "tag":"greenarmygecw",
+    "patterns":["explain about green army club in gecw","is there any natural club in college","green army gecw"],
+    "responses":["https://www.gecwyd.ac.in/community/clubs-2/nature-club/"]
+  },
+
+  {
+    "tag":"boomithrasenaclub",
+    "patterns":["what is the aiming my by boomithrasena club in gecw","what are the objectives of boomithrasena club in college","what are the activities so far in boomithrasena club","boomithrasena club"],
+    "responses":["BHOOMITHRASENA GOVT ENGG COLLEGE WAYANAD ,REG No: BMC 182/WND/09/11 GEC WAYANAD.Bhoomithrasena club has been formed in our institution. The objectives of this club are i) To ensure the college students appreciate environment and environmental issues of the locality.ii) To provide environmental education opportunities for college students and involve them in addressing environmental issues of the locality.iii) To utilize the enormous manpower available with college students as conduits for awareness of the society.iv) To make students practice and advocate sustainable lifestyles.Faculty in charge is Prof. Smitha Karunan, AP in CSE. The club members at present are 89 students. No of boys: 54 and No of girls: 35.Activities so far:1) World water day was celebrated in the campus on 22nd March 2012. General awareness was given to students.2) Earth Day was celebrated on 22nd April 2012.3) World Environmental Day was celebrated on June 5th 2012. Essay competition was conducted in college. First prize is won by Ajay Thomas, S4 EEE, GEC Wayanad. Second prize, Karthik R Nath, S3 ECE, GEC Wayanad. Third Prize, Archana Jaijith, Bharathiya Vidya Bhavan, Sulthan Bathery. A open quiz competition was also arranged on the topic Environment.. On the spot prizes were given to the participants."]
+  },
+
+  {
+    "tag":"facultyinchargeofboomithrasena",
+    "patterns":["who is the faculty in charge of boomithrasena","head of boomithrasena club in college","faculty in charge of boomithrasena"],
+    "responses":["Prof. Smitha Karunan"]
+  },
+
+  {
+    "tag":"flosscellincollege",
+    "patterns":["details of floss cell in college","is there any club in college related to open source softwares","floss cell in college"],
+    "responses":["FLOSS cell is active in the college by which students have access to number of open source softwares and have opportunities to carry out projects in open source software."]
+  },
+
+  {
+    "tag":"flosscellwebsite",
+    "patterns":["give me the website of floss cell","floss cell website"],
+    "responses":["https://projects.gitlab.io/auth?domain=http://gecw.fsug.in&state=DpTwUQ8oXlWkrHNkwlnrBw=="]
+  },
+
+  {
+    "tag":"centralcollegelibrary",
+    "patterns":["is library facility available in college","details of college central library","how many books are there un college central library","working time of college library","central college library"],
+    "responses":["With a large of collection of over 10,000 books, 10 periodicals, CD-ROMs and reports, the library serves the needs of the students and staff of the college. The library is kept open from 8:30am to 4:30pm on all working days. The College Library consists of reference section and lending section. A Book Bank is also functioning in the library, exclusively for SC/ST students. Students can keep the books for 14 days and there after a fine Re.1/- per day per book will be levied. The library is fully computerized and has a heavy duty Photocopier machine for the benefit of students and staff. Online availability of international journals are also provided."]
+  },
+
+  {
+    "tag":"centralcomputingfacilities",
+    "patterns":["is there any computer facility in college","details of central computers in college","how can students access computers in college","central computing facilities"],
+    "responses":["https://www.gecwyd.ac.in/facilities/central-computing-facility/"]
+  },
+
+  {
+    "tag":"iiicell",
+    "patterns":["explain about III Cell in college","is there any cell or community in college which promote closer interaction between the academic and the industry","iii cell"],
+    "responses":["The Industry Institution Interaction (I I I) Cell is to promote closer interaction between the academia and the industry. The cell is functioning in our college and it organizes seminars, workshops and industrial training programmes. Prof. Sailesh R, Asst. Professor, Dept. of Mechanical Engg., is co-ordinating III Cell activities."]
+  },
+
+  {
+    "tag":"virtualclassroom",
+    "patterns":["details of virtual class rooms in college","is there any class setup through network system in college","virtual class room"],
+    "responses":["Virtual Class Room is used for conducting classes from remote locations through Networks systems  and NPTEL Videos with High class facilities.  The Virtual Class Room can accommodate large number of attendees in air conditioned comfort. The audio visual facilities are digitally enhanced and designed for effective presentations with excellent auditory reception."]
+  },
+
+  {
+    "tag":"pictureofvirtualclassroom",
+    "patterns":["give me the virtual class room","picture of virtual class room","show me the virtual class room","picture of virtual classroom"],
+    "responses":["https://www.gecwyd.ac.in/facilities/edusat/"]
+  },
+
+  {
+    "tag":"collegebusdetials",
+    "patterns":["details of college bus in college","how many buses are available in college","which are the roots of college buses","is college bus available to thalappuzha and mananthavadi","college bus details"],
+    "responses":["The College takes care of the transportation of the students and staff from Mananthavady to the college campus. At present 4 college buses are available and are flying from Mananthavady to College, Thalapuzha to college and Vincent Giri to college. Dr. Hashim.M., Associate Professor in Mechanical Engg., is in charge of the college bus."]
+  },
+
+  {
+    "tag":"inchargeofcollegebus",
+    "patterns":["who is faculty in charge of college bus","staff who control college bus","in charge of college bus"],
+    "responses":["Dr. Hashim.M., Associate Professor in Mechanical Engg., is in charge of the college bus."]
+  },
+
+  {
+    "tag":"allotmentlistofcollegehostel",
+    "patterns":["give me the allotment list of mh,LH1,LH2","boys hostel and girls hostel list students got selected","allotment list of college hostel"],
+    "responses":["https://www.gecwyd.ac.in/college-hostel/"]
+  },
+
+  {
+    "tag":"highperformancecomputingincollege",
+    "patterns":["details of high performance computer in college","high performance computing in college"],
+    "responses":["The college has a High Performance Computing facility with 4 powerful computing nodes and a dedicated GPU node"]
+  },
+
+  {
+    "tag": "cce",
+    "patterns":["what about cce (center for continuing education)", "explain about cce in college","cce"],
+    "responses":["The College has started a sub-centre under the Government of Kerala for Continuing Education Kerala as per G. O. (MS) No.9/98/H.Edn dated 03-02-1998. The Centre for Continuing Education (CCE) is aimed at extending the infrastructure provided by the Government in this college to the people around this institution, including the general public.CCE in this college paves the way in developing man power in the field of Computers and Electronics. The sub-centre has successfully conducted short term courses in Windows & MS Office, Internet Technology and Auto CAD, JAVA, C++, Hardware maintenance and Networking, Electrical Wiring and Repairing of Home Appliances, MATLAB Programming and Simulation Tools for Communication, and Office Automation & Internet.  Sri Umesh AC Dept.of ECE supervises the functioning of this unit."]
+  },
+
+  {
+    "tag":"centreforcontinuingeducationbylaw",
+    "patterns":["give the details centre for continuing education by law","centre for continuing education bylaw"],
+    "responses":["http://www.gecwyd.ac.in/wp-content/uploads/2017/06/NSS-Activity-Report-2016-17.pdf"]
+  },
+
+  {
+    "tag":"careerguidanceandplacementunit",
+    "patterns":["give me the details of placement and carrier guidance in college","what about the placement and carrier guidance cell in college","career guidance and placement unit"],
+    "responses":["https://www.gecwyd.ac.in/cgpu/"]
+  },
+
+  {
+    "tag":"facultymembersofthetrainingandplacementteam",
+    "patterns":["who are the faculty members","who are the team members of placement team","faculty members of the training and placement team"],
+    "responses":["Prof. Anas M. M., Asst. Professor, ECE Dr. Nithin Raj, Asst. Professor, EEE Prof. Vipin Champatan, Asst. Professor, ME"]
+  },
+
+  {
+    "tag":"websiteofplacementcell",
+    "patterns":["give me the website of placement cell in college","how can i know more details about placement and carrier guidance in college","website of placement cell"],
+    "responses":["placement@gecwyd.ac.in"]
+  },
+
+  {
+    "tag":"demanddraftofcompanies",
+    "patterns":["details of demand draft of companies","how much should pay by companies for collecting academic details of students","demand draft of companies"],
+    "responses":["Companies who wish to verify the student academic details at our college should send a Demand Draft of Rs. 1500/- drawn in favor of College Development Fund, Government Engineering College Wayanad payable at Mananthavady along with the letter. Please quote the DD number in their letter. We prefer sending DD through speed post, Professional Couriers or Speed n Safe Couriers."]
+  },
+
+  {
+    "tag":"detailsofstudentswhogotplaced",
+    "patterns":["which are the students who got placed","which are the companies hired students from college","list of students placed in 2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022","details of students who got placed"],
+    "responses":["https://www.gecwyd.ac.in/cgpu/"]
+  },
+
+  {
+    "tag":"linktoapplystaffid",
+    "patterns":["give me the link to apply staff id card","how can i apply for staff id card","link to apply staff id"],
+    "responses":["http://tiny.cc/Staff_ID_Card_GECW"]
+  },
+
+  {
+    "tag":"staffinchargeofstaffid",
+    "patterns":["who is in charge of staff id card","how can i contact faculty in charge of staff id","staff in charge of staff id"],
+    "responses":["Contact to this mobile number (9846317051 (Sujith Kumar K B, Trade Instructor, CSE)"]
+  },
+
+  {
+    "tag":"boardofgovernors",
+    "patterns":["who are the board of governors (BOG) in college","which are faculty members of bog in college","board of governors","bog"],
+    "reponses":["https://www.gecwyd.ac.in/teqip-ii/board-of-governorsbog/"]
+  },
+
+  {
+    "tag":"administrativestaff",
+    "patterns":["who are administrative staffs in college","list of staffs in college","role of each in staff in college","contact number of staffs in college","sweeper post staffs in college","administrative staff"],
+    "responses":["https://www.gecwyd.ac.in/administration/administrative-staff/"]
+  },
+
+  {
+    "tag":"antiraggingcommittee",
+    "patterns":["details of anti-ragging committee in college","who are the staffs or faculty members of anti-ragging committee in college","where to inform if i got ragged in college","anti ragging committee","ragging in committee"],
+    "responses":["https://www.gecwyd.ac.in/administration/anti-ragging-committee/"]
+  },
+
+  {
+    "tag":"protectionofwomenagainstharrassment",
+    "patterns":["what protection for women is provided in college","is there any cell or community for protection of women in college", "who are the faculty members of women protection cell","protection of women against harassment"],
+    "responses":["A committee is functioning in the college to combat violence and sexual harassment against women. Mrs. Anju S Anand., Assistant Professor in  Electronics & Communication Engg. is the Convener. Dr. Anitha V S, Professor(CSE),  Ms.Chinnamma Jose, Member of Tavinjal Gramapanchayath, Mrs.Jyothi T, Computer Programmer(CSE) and Mrs. Jolly Thomas  are the members of the committee.Women's Grievance Chairperson Anti Sexual Harrasement Committee : Mrs. Anju S Anand, Assistant Professor in  Electronics & Communication Engineering ,Email : anjusanand@gecwyd.ac.in"]
+  },
+
+  {
+    "tag":"convenerofwomencell",
+    "patterns":["who is the convener of women cell (Protection of women against harassment)","head of women protection committee in college","name of women cell convener","convener of women cell","women harassment committee convener in college"],
+    "responses":["Mrs. Anju S Anand., Assistant Professor in  Electronics & Communication Engg.  is the Convener."]
+  },
+
+  {
+    "tag":"emailidofwomencellconvener",
+    "patterns":["give me the email address of convener of women cell","how can i complaint in women cell","email id of women cell convener"],
+    "responses":["anjusanand@gecwyd.ac.in"]
+  },
+
+  {
+    "tag":"placementofficermailid",
+    "patterns":["give me the placement cell's mail id","how can i contact placement cell","placement officer mail id"],
+    "responses":["Placement Cell : placement@gecwyd.ac.in"]
+  },
+
+  {"tag": "hostel",
+    "patterns": ["is hostel available","college hostel","what about hostels in college","mh","lh","mens hostel","ladies hostel","boys hostel","girls hostel"],
+    "responses": ["GEC  Wayanad,  has  separate  one  Mens  Hostel  (MH)  and  two  Ladies  Hostels  (LH1,  LH2)  are located  in  the  college  campus."]
+  },
+
+
+  {"tag": "invalid",
+    "patterns": ["nvvmd","gvsd","asbhk","ffjddjd","dhjdjdd","dgdjjdiu","dtfd","ewewy","jdddjd","hdhd","cnvc","jkhhk","gygs","hytdg"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+
+
+  {
+  "tag": "drbijuaugustine",
+  "patterns": ["details of bijuaugustine","phone number of bijuaugustine","email id of biju sir","dr biju augustine","biju augustine","dr.biju augustine"],
+  "responses": ["Dr.BijuAugustine, Associate Professor of Mechanical department, PhD 9526822995 ,bijuaugustine@gecwyd.ac.in "]
+  },
+
+  {
+  "tag": "drunnikrishnanm ",
+  "patterns": ["details of unnikrishnan","phone number of unnikrishnan","email id of unnikrishnan","dr.unnikrishnan","unni krishnan","dr unnikrishnan"],
+  "responses": ["Dr.Unnikrishnan.M,Associate Professor of mechanical department,phD,9947350636,munnikrishnan@gecwyd.ac.in"]
+  },
+
+  {
+   "tag": "laijulukose",
+    "patterns":["details of laijulukose ","phone number of laiju lukose ","email id of laiju lukose","laiju lukose","laijulukose"],
+    "responses":["Laiju Lukose , Assistant professor M.Tech, 9495485605,laijulukose@gecwyd.ac.in"]
+},
+
+{
+ "tag":"saileshr",
+ "patterns":["details of saileshr","phonenumber of saileshr  ","email id of saileshr ","sailesh r"],
+ "responses":["Mr.Sailesh.R ,Assistant professor M.Tech (Doing PhD ) 9497265051 saileshraju@gecwyd.ac.in"]
+},
+
+{
+ "tag": "Bijesh",
+ "patterns":["details of Bijesh ","phonenumber of  Bijesh  ","email id of  Bijesh","Bijesh"],
+ "responses":[ "Bijesh Assistant Professor M Tech ( Doing PhD) 9539144860 bijeshvarrier@gecwyd.ac.in"                ]
+},
+
+
+{
+ "tag":"ahammedkabeervp",
+ "patterns":["details of ahammed kabeer vp ","phone number of Ahammed kabeer vp  ","email id of Ahammed kabeer vp ","ahammed kabeer vp"],
+ "responses":["Ahammed Kabeer V P Assistant Professor  M Tech 7306681400 kabeer.vp@gecwyd.ac.in"]
+},
+
+{
+ "tag":"muhammedshafeeqey",
+ "patterns":["details of Muhammed Shafeeq E Y","phone number of Muhammed Shafeeq E Y","email id of Muhammed Shafeeq E Y","Muhammed Shafeeq E Y"],
+ "responses":["Muhammed Shafeeq E Y Assistant Professor M Tech 9447363023 shafeeq@gecwyd.ac.in"]
+},
+
+{
+ "tag":"ridhinrajvr",
+ "patterns":["details of Ridhin Raj V R "," Assistant Professor of M Tech","phone number of Ridhin Raj V R","email id of Ridhin Raj V R","ridhin raj v r"],
+ "responses":[ "Mr. Ridhin Raj V R Assistant Professor M Tech 9995052052 ridhinraj@gecwyd.ac.in"	                ]
+},
+
+{
+ "tag":"SahidI",
+ "patterns":["details of  Sahid I","Assistant Professor M Tech","phone number of  Sahid I","email id of  Sahid I","Sahid I"],
+ "responses":["Sahid I Assistant Professor M Tech 9037812332 ishahid.me@gecwyd.ac.in   "              ]
+},
+
+{
+ "tag": "VipinChampatan",
+ "patterns":["details of Vipin Champatan","Assistant Professor of mech","phone number of Vipin Champatan","email id of Vipin Champatan","Vipin Champatan"],
+ "responses":[    "Vipin Champatan Assistant Professor M Tech 9544121477 vipin.c@gecwyd.ac.in    "         ]
+},
+
+{
+ "tag": "ShafeequeCP",
+ "patterns":["details of Shafeeque C P ","phone number of Shafeeque C P","email id of Shafeeque C P","Shafeeque CP"],
+ "responses":["Shafeeque C P Assistant Professor M Tech 9895345211 shafeeq.cp@gecwyd.ac.in"]
+},
+
+{
+ "tag": "xaviercj",
+ "patterns":["details of  XAVIER CJ ","trade instructor","phone number of XAVIER CJ ","email id of XAVIER CJ","xavier cj"],
+ "responses":[ "XAVIER CJ TRADE INSTRUCTOR gr2 sunilov333@gmail.com 9961137333    "            ]
+},
+
+
+{
+ "tag": "sanukk",
+ "patterns":["details of SANU K K","trade instructor ","phone number of SANU K K ","email id of SANU K K ","sanu k k"],
+ "responses":[ "SANU K K TRADE INSTRUCTOR gr2 sanukkrishnan@gmail.com 9495188257"]
+},
+
+{
+ "tag":"helenkj",
+ "patterns":["details of  Helen K. J.","phone number of  Helen K. J. ","email id of  Helen K. J.","helen k j","helen miss"],
+ "responses":["Helen K. J. Associate Professor M. Tech. 9446352699 helenkj28@gmail.com "]
+},
+
+{
+ "tag":"Nidheeshn",
+ "patterns":["details of  Nidheesh N ","phone number of  Nidheesh N  ","email id of  Nidheesh N","nidheesh n","nidheesh sir"],
+ "responses":["Dr. Nidheesh N. Associate Professor Ph.D 9400102589 nidheesh@gecwyd.ac.in"]
+},
+
+{
+ "tag":"ShabeerKP",
+ "patterns":["details of Shabeer K P","phone number of  Shabeer K P","email id of Shabeer K P","Shabeer K P","shabeer sir"],
+ "responses":["Shabeer K P  Assistant Professor M.E. 9447415506 ,shabeerkp@gecwyd.ac.in "]
+},
+
+{
+ "tag": " BinathaC",
+ "patterns":["details of  Binatha C ","phone number of Binatha C  ","email id of  Binatha C","binatha c","binatha","binatha miss","binatha mam"],
+ "responses":["Binatha C. Assistant Professor M. Tech. 9947875304 ,binathac@gecwyd.ac.in"             ]
+},
+
+{
+ "tag":"Sreejithvp",
+ "patterns":["details of Sreejith V. P ","phonenumber of  Sreejith V. P ","email id of  Sreejith V. P","sreejith v p","sreejith sir"],
+ "responses":["Sreejith V. P. (QIP Deputation) Assistant Professor M. E.(Pursuing PhD) 9645304778 sreejithvp@gecwyd.ac.in"]
+},
+
+{
+ "tag": "dhanyarajp",
+ "patterns":["details of Dhanya Raj P","Assistant Professor of CSE","phone number of  Dhanya Raj P","email id of  Dhanya Raj P","dhanya raj p","dhanya miss"],
+ "responses":["Assistant Professor M. Tech. (Pursuing PhD) 9447025214 dhanyaraj@gecwyd.ac.in"]
+},
+
+{
+ "tag": "smithaKarunan",
+ "patterns":["details of  Smitha Karunan ","phonenumber of  Smitha Karunan ","email id of  Smitha Karunan","smitha Karunan","smitha miss"],
+ "responses":[ "Smitha Karunan Assistant Professor M. Tech. 9497623821,smithakarunan@gecwyd.ac.in"               ]
+},
+
+{
+ "tag":"dilnapm",
+ "patterns":["details of Dilna P M  ","phone number of Dilna P M ","email id of Dilna P M","dilna p m","dilna miss"],
+ "responses":[  "Dilna P M Assistant Professor M. Tech 9387333793 dilnapm@gecwyd.ac.in"]
+},
+
+{
+ "tag": "nikeshp",
+ "patterns":["details of Nikesh P ","phonenumber of  Nikesh P ","email id of Nikesh P","Nikesh P","nikesh sir"],
+ "responses":["Nikesh P Assistant Professor PhD 9809092954 nikeshp@gecwyd.ac.in"]
+},
+
+{
+ "tag":"AlfredThomas",
+ "patterns":["details of  Alfred Thomas ","phone number of Alfred Thomas","email id of Alfred Thomas","alfred sir","alfred thomas"],
+ "responses":[  "Alfred Thomas Assistant Professor M. Tech ,9447679110 alfred@gecwyd.ac.in "              ]
+},
+
+
+{
+ "tag": "AnjuKB",
+ "patterns":["details of  Anju K B  ","phone number of Anju K B ","email id of Anju K B","anju k b","anju miss"],
+ "responses":["Anju K B Assistant Professor M. Tech,9847114686,anjukb@gecwyd.ac.in"]
+},
+
+{
+ "tag": "Narasimhant",
+ "patterns":["details of  Narasimhan T","phone number of Narasimhan T","email id of Narasimhan T","narasimhan t","narasimhan sir"],
+ "responses":[ "Narasimhan T Assistant Professor M. Tech 9497272411 narasimhant@gecwyd.ac.in"]
+},
+
+{
+ "tag": " Riji ",
+ "patterns":["details of  Riji ","phone number of  Riji  ","email id of  Riji","riji","riji miss"],
+ "responses":[  "Riji Assistant Professor M. Tech 9895195326 ,riji@gecwyd.ac.in "              ]
+},
+
+{
+ "tag": " AnjanaAshok",
+ "patterns":["details of  Anjana Ashok ","phone number of  Anjana Ashok","email id of  Anjana Ashok","anjana ashok","anjana miss"],
+ "responses":[ "Anjana Ashok Assistant Professor (Adhoc) M. Tech 8281295659 anjanaashok22@gmail.com  "              ]
+},
+
+{
+ "tag": "Asha Alias",
+ "patterns":["details of Asha Alias ","phone number of Asha Alias ","email id of Asha Alias","asha alias","asha miss"],
+ "responses":["Asha Alias Assistant Professor (Adhoc) M. Tech 9539752157 ashaalias95@gmail.com"]
+},
+
+
+{
+ "tag": "AnjuKB",
+ "patterns":["details of Anju K B ","phone number of Anju K B ","email id of Anju K B","anju k b"],
+ "responses":["Anju K B Assistant Professor M. Tech 9847114686 anjukb@gecwyd.ac.in"]
+},
+
+{
+ "tag": "AthulyaC.Shaji",
+ "patterns":["details of Athulya C. Shaji","phone number of Athulya C. Shaji ","email id of Athulya C. Shaji","athulya c shaji","athulya miss"],
+ "responses":[  "Athulya C. Shaji Assistant Professor (Adhoc) M. Tech 9061459614  athulyashaji@gecwyd.ac.in"              ]
+},
+
+{
+ "tag":"HarshaRaveendran",
+ "patterns":["details of  Harsha Raveendran  ","phone number of Harsha Raveendran ","email id of Harsha Raveendran","harsha raveendran"],
+ "responses":["Harsha Raveendran Assistant Professor (Adhoc) M. Tech 8547808529 harsha@gecwyd.ac.in "           ]
+},
+
+{
+ "tag":"Jyothi.T",
+ "patterns":["details of  Jyothi.T  ","phone number of  Jyothi.T ","email id of  Jyothi.T","jyothi t"],
+ "responses":["Jyothi.T Computer Programer(HG) MCA, MBA(OM), PGDHRM, Certificate in Disaster Mgt,MA Psychology(Clinical) 9447054909 jyothit@gecwyd.ac.in"]
+},
+
+{
+ "tag": " Aboobackerk",
+ "patterns":["details of  Aboobacker K  ","phone number of  Aboobacker K ","email id of  Aboobacker K","aboobacker k"],
+ "responses":["Aboobacker K Computer Programmer MSc Physics, MCA, BEd 9447216554 abugec@gecwyd.ac.in  "              ]
+},
+
+{
+ "tag": "SujithkumarKB",
+ "patterns":["details of Sujith kumar KB ","phone number of Sujith kumar KB","email id of Sujithkumar KB","sujith kumar kb"],
+ "responses":["Sujithkumar KB Trade Instructor Gr. II ITI 9846317051 sujithkumar@gecwyd.ac.in"          ]
+},
+
+{
+ "tag": " MusthafaPK",
+ "patterns":["details of Musthafa P K ","phone number of Musthafa P K ","email id of Musthafa P K","musthafa p k"],
+ "responses":["Musthafa P K Trade Instructor Gr. II ITI, BSc 9447301460,musthafapk@gecwyd.ac.in"]
+},
+
+{
+ "tag": " PrasadKK",
+ "patterns":["details of Prasad K K","phone number of  Prasad K K ","email id of Prasad K K ","prasad k k"],
+ "responses":["Prasad K K Trade Instructor Gr.II ITI 9497061360 kkprasad.tech@gmail.com"]
+},
+
+{
+ "tag": "SankaranNamboodri",
+ "patterns":["details of Sankaran Namboodri  ","phone number of Sankaran Namboodri","email id of Sankaran Namboodri ","sankaran namboodri"],
+ "responses":[ "Sankaran Namboodri Tradesman ITI 9495723285,sankar@gecwyd.ac.in"]
+},
+
+{
+ "tag": "ShanuMP",
+ "patterns":["details of Shanu M P  ","phone number of Shanu M P ","email id of  Shanu M P","shanu m p"],
+ "responses":["Shanu M P Tradesman BCA,9387112505 shanump@gmail.com"]
+},
+
+{
+ "tag":"rafeenaK",
+ "patterns":["details of Rafeena K  ","phone number of Rafeena K","email id of Rafeena K","rafeena k"],
+ "responses":["Rafeena K Instructor Grade II (Adhoc) B. Tech 8590747071   rafeena@gecwyd.ac.in"]
+},
+
+{
+ "tag":"divyapd",
+ "patterns":["details of Divya P D  ","phone number of Divya P D ","email id of Divya P D ","divya pd"],
+ "responses":["Divya P D Tradesman (Adhoc) ITI 9656263030 divyadhamodaran@gmail.com"]
+},
+
+{
+ "tag":"drSureshK",
+ "patterns":["details of  Dr. Suresh K  ","phone number of  Dr. Suresh K ","email id of  Dr. Suresh K","dr.suresh k"],
+ "responses":[   "Dr. Suresh K Professor & Academic Dean PhD 9446333485 sureshk@ieee.org   "           ]
+},
+
+{
+ "tag":"drpremanandB",
+ "patterns":["details of Dr. Premanand B ","phone number of Dr. Premanand B","email id of Dr. Premanand B","premanand b"],
+ "responses":["Dr. Premanand B Associate Professor & HoD PhD 9446148067 premanand@gecwyd.ac.in"]
+},
+
+{
+ "tag": " Anwarhussainm",
+ "patterns":["details of  Anwar hussain m  ","phone number of  Anwar hussain m","email id of  Anwar hussain m ","anwar hussain m"],
+ "responses":[  "Anwar hussain mAssociate Professor M Tech 9447945539 anwarhussain@gecwyd.ac.in  "        ]
+},
+
+{
+ "tag": " Dr.PradeepR.",
+  "patterns":["details of  Dr. Pradeep R.","phone number of Dr. Pradeep R.","email id of  Dr. Pradeep R.","dr.pradeep r"],
+ "responses":["Dr. Pradeep R. Associate Professor PhD 9447426466,pradeep@gecwyd.ac.in"]
+},
+
+{
+ "tag": "LathaV",
+ "patterns":["details of  Latha V  ","phone number of  Latha V","email id of Latha V","latha v"],
+ "responses":["Latha V Associate Professor M Tech 9447964173 vlatha@gecwyd.ac.in"]
+},
+
+{
+ "tag": "Reehakr",
+ "patterns":["details of Reeha K R  ","phone number of Reeha K R ","email id of Reeha K R","reeha k r"],
+ "responses":["Reeha K RA ssistant Professor M.Tech 9447340298 reehakr@gmail.com"]
+},
+
+{
+ "tag": "AbdulRaoufKhalidMT",
+ "patterns":["details of Abdul Raouf Khalid M T","phone number of Abdul Raouf Khalid M T","email id of Abdul Raouf Khalid M T","abdul raouf khalid m t"],
+ "responses":["Abdul Raouf Khalid M T Assistant Professor M.Tech 9447768862 raouf@gecwyd.ac.in"]
+},
+
+{
+ "tag": "anasmm",
+ "patterns":["details of Anas M. M.","phone number of Anas M. M. ","email id of Anas M. M.","anas mm","anas","anas sir"],
+ "responses":[ "Anas M. M. Assistant Professor M.Tech 7561017476 anasmm@gecwyd.ac.in "]
+},
+    {"tag": "passpercentages",
+"patterns": ["Pass percentage","pass percentage for 2015 batch","pass percentage for 2016 batch","pass percentage for 2017 batch","pass percentage for 2018 batch"],
+ "responses":["45% for 2015 to 2018 batch"]
+},
+
+
+{"tag": "passpercentage",
+"patterns": ["pass percenatage","pass percentage for 2019 batch","pass percenatage for 2020 batch","pass percentage for 2021 batch"],
+ "responses":["40% for 2019and above batch "]
+},
+
+
+
+{"tag": "cooperativestore",
+"patterns": ["Cooperative store","cooperative store location"," location of cooperative store"],
+ "responses":["located adjacent to the amenity block near college gate(not opened after pandemic)"]
+},
+
+
+{"tag": "collegestore",
+"patterns": ["College store","college store location"," location of college store","where is college store situating"],
+ "responses":["ground floor of main block)"]
+},
+
+{"tag": "nearestchurch",
+"patterns": ["Nearest church","location of nearest church","how much distance to nearest church from college"],
+ "responses":["Located near morning mist resort around 4 KM from college"]
+},
+
+{"tag": "nearestmasjid",
+"patterns": ["Nearest masjid","location of nearest masjid","where should i go to mosque from college"],
+ "responses":["located at thalappuzha town"]
+},
+
+{"tag": "nearesttown",
+"patterns": ["Nearest town"," location of nearest town","which is the nearest town from college","where is the nearest town or place to shoping"],
+ "responses":["Thalappuzha town"]
+},
+
+{"tag": "nearest temple",
+"patterns": ["Nearest temple","location of nearest temple","where is the nearest temple from college located"],
+ "responses":[" located at thalappuzha"]
+},
+
+{"tag": "nearestmovietheatre",
+"patterns": ["Nearest movie theatre","location of nearest movie theatre","which is the nearest movie theater from college"],
+ "responses":["Jose cinemas Mananthavady"]
+},
+
+{"tag": "officeroom",
+"patterns": ["Office room","where is the office room of gecw","location of gecw office room","where is office room located or situated"],
+ "responses":["Second floor of old block"]
+},
+
+{"tag": "cseblock",
+"patterns": ["CSE block of gecw","where is Cse block located","cs classes located where","computer science and engineering classes location"],
+ "responses":["CSE block located in ground floor and first floor of new block"]
+},
+
+{"tag": "eceblock",
+"patterns": ["ECE block of gecw","ECE block","where is Ece block located","electronics and communication engineering classes location"],
+ "responses":["ECE block located in third floor and fourth floor of new block"]
+},
+
+{"tag": "mechblock",
+"patterns": ["Mech block","mech block of gecw","where is mech block located","mechanical engineering classes","me classes location","mech classes"],
+ "responses":["mech block located in second floor and third floor of old block"]
+},
+
+{"tag": "eeeblock",
+"patterns": ["EEE block","eee block of gecw","where is eee block located","electrical and electronics engineering department classes","eee classes"],
+ "responses":["eee block located in first,second,third floor of old block  "]
+},
+
+{"tag": "cseseminarhall",
+"patterns": ["CSE seminar hall","where is cse seminar hall","seminar hall of cse","where is seminar hall located"],
+ "responses":["first floor of new block"]
+},
+
+{"tag": "csefirstyearclass",
+"patterns": ["CSE first year class","where is first year cse classes located","location of 1st year cs class","CSE 1st year class","where is 1st year cse located"],
+ "responses":["first floor of new block"]
+},
+
+{"tag": "eeefirstyearclass",
+"patterns": ["EEE first year class","eee 1st year class","eee 1st year class","EEE 1st year class"],
+ "responses":["third floor of old block  "]
+},
+
+{"tag": "ecefirstyearclass",
+"patterns": ["ECE first year class","where is first year ece classes","ece 1st year class","where is 1st year ece classes","1st year ec class"],
+ "responses":["ECE1 and ECE2 located in Second floor of academic block"]
+},
+
+{"tag": "csesecondyearclass",
+"patterns": ["CSE second year class","where is second year cse classes","cse 2nd year class","where is 2nd year cse class"],
+ "responses":["First floor of new block"]
+},
+
+{"tag": "ecesecondyearclass",
+"patterns": ["ECE second year class","where is ece second year classes","ece 2nd year class","where is ece 2nd year class"],
+ "responses":["ECE2 located in second floor and ECE1 located in third floor of academic block  "]
+},
+
+{"tag": "eeesecondyearclass",
+"patterns": ["EEE second year class","where is eee second year class","eee 2nd year class","where is eee 2nd year class"],
+ "responses":["first floor of main block  "]
+},
+
+{"tag": "mechsecondyearclass",
+"patterns": ["Mech second year class","where is mech second year class","mech 2nd year class","where is mech 2nd year class"],
+ "responses":["third floor of old block"]
+},
+
+{"tag": "csethirdyearclass",
+"patterns": ["CSE third year class","where is cse third year classes","cse 3rd year class","where is cse 3rd year class"],
+ "responses":["ground floor of academic block "]
+},
+
+{"tag": "ecethirdyearclass",
+"patterns": ["ECE third year class","where is ece third year classes","ece 3rd year class","where is ece 3rd year class"],
+ "responses":["ECE1 and ECE2 are located in third floor of main block "]
+},
+
+{"tag":"eeethirdyearclass",
+"patterns":["EEE third year class","where is eee third year class","eee 3rd year class","where is eee 3rd year class"],
+ "responses":["first floor of main block"]
+},
+
+{"tag": "mechthirdyearclass",
+"patterns": ["Mech third year class","where is third year mech or me class","mech 3rd year class","where is 3rd year mech class"],
+ "responses":["third floor of main block  "]
+},
+
+{"tag": "csefourthyearclass",
+"patterns": ["CSE fourth year class","where is fourth year cs class","where is fourth year cse class","where is 4th year class of cse"],
+ "responses":["first floor of new block"]
+},
+
+{"tag": "ecefourthyearclass",
+"patterns": ["ECE fourth year class","where is fourth year ece class","where is fourth year ec class","where is 4th year class of ece"],
+ "responses":["third floor of academic block"]
+},
+
+{"tag": "eeefourthyearclass",
+"patterns": ["EEE fourth year class","where is fourth year electronic class","where is fourth year eee class","where is 4th year eee class"],
+ "responses":["second floor of main block "]
+},
+
+{"tag": "mechfourthyearclass",
+"patterns": ["Mech fourth year class ","where is 4th year mech or me class","where is fourth year mech or me class"],
+ "responses":[" third floor of main block "]
+},
+
+{"tag": "library",
+"patterns": ["where is the library of gecw","gecw library location","library location in college"],
+ "responses":["ground floor of main block  "]
+},
+
+{"tag": "counselling room",
+"patterns": ["where is counseling room of gecw ","counseling room location"],
+ "responses":["located in main block"]
+},
+
+{"tag": "washroom",
+"patterns": ["where is the washroom ","location of washroom","is there any washrooms in college","washroom facility in college","toilets","cleaning place"],
+ "responses":[" located at the ends of each floor "]
+},
+
+{"tag": "staffadvisorofcsefirstyearcse",
+"patterns": ["who is the staff advisor of cse first year","who is in charge of first year cse class","who is the staff advisor of cse 1st year","who is in charge of 1st cse class"],
+ "responses":["Nikesh.P and Helen.K.J"]
+},
+
+{"tag": "staffadvisorofcsesecondyearcse",
+"patterns": ["staff advisor of cse second year ","who is in charge of second year cse class","staff advisor of cse 2nd year","who is in charge of 2nd year cse class"],
+ "responses":["Anju K B and Athulya C Shaji"]
+},
+
+{"tag": "staffadvisorofthirdyearcse",
+"patterns": ["staff advisor of third year cse ","who is in charge of third year cse class","staff advisor of 3rd year cse","who is in charge of 3rd cse class"],
+ "responses":["Dilna P M and Dhanyaraj P  "]
+},
+
+{"tag": "staffadvisoroffourthyearcse",
+"patterns": ["staff advisor of fourth year cse ","staff advisor of 4th year cs","staff advisor of 4th year computer science and engineering","who is in charge of fourth year cse class"],
+ "responses":["Smitha Karunan and Asha alias  "]
+},
+
+{"tag": "staffadvisorofece1fourthyear",
+"patterns": [" staff advisor of ece1 fourth year","who is in charge of fourth year ece 1 class"],
+ "responses":["Anu Mathew and Jobin Jose"]
+},
+
+{"tag": "staffadvisorofece1thirdyear",
+"patterns": ["staff advisor of ece 1 third year ","who is in charge of third year ece 1 class","staff advisor of ece 1  3rd year"],
+ "responses":["Anas M M and Riyaz R "]
+},
+
+{"tag": "staffadvisorofece1secondyear",
+"patterns": ["staff advisor of ece 1 second year","who is in charge of second year ece 1 class","staff advisor of ece1 2nd year","who is in chaqrge of 2nd year ece1 class"],
+ "responses":["Irshad V K and Sudheer T M "]
+},
+
+{"tag": "staffadvisorofece1firstyear",
+"patterns": [" staff advisor of ece1 first year","who is in charge of first year ece 1 class","staff advisor of ece1 1st year","who is in charge of"],
+ "responses":["Jayachandran and Sreeram R  "]
+},
+
+{"tag": "staffadvisorofece2fourthyear",
+"patterns": [" staff advisor of ece2 fourth year","who is in charge of fourth year ece 2 class"],
+ "responses":["Abdul Raouf Khalid M T and Soumya N V "]
+},
+
+{"tag": "staffadvisorofece2thirdyear",
+"patterns": ["staff advisor of ece2 third year","who is in charge of third year ece 2 class","staff advisor of ece2 3rd year","who is in charge of 3rd year ece2 class"],
+ "responses":["Anju S Sanand and Nirmal Joseph  "]
+},
+
+{"tag": "staffadvisorofece2secondyear",
+"patterns": ["staff advisor of ece2 second year ","who is in charge of second year ece 2 class","staff advisor of ece2 2nd year","who is in charge of 2nd year ece 2 class "],
+ "responses":["Soman P and Nikhil M  "]
+},
+
+{"tag": "staffadvisorofece2firstyear",
+"patterns": ["staff advisor of ece2 firstyear ","who is in charge of first year ece 2 class","staff advisor of ece2 1st year","who is in charge of 1st year ece2 class"],
+ "responses":["Asha prasad and Nithin Jose K  "]
+},
+
+{"tag": "staffadvisorofeeefirstyear",
+"patterns": ["staff advisor of eee firstyear ","who is in charge of first year eee class","staff advisor of eee 1st year","who is in charge of 1st year eee class"],
+ "responses":["Nakul Narayanan K and Abin K K "]
+},
+
+    {"tag": "gileshcontact",
+"patterns": ["what  is the contact details  of gilesh sir","cs hod contact number","mobile number of gilesh mp","email address of gilesh mp","mail id of gilesh mp"],
+ "responses":["Mobile number: 9249285500 Mail id - gileshmp@gecwyd.ac.in"]
+},
+
+{"tag": "eeeseatcapacity",
+"patterns": ["what is the total seat capacity of electrical engineering","number of seats of eee department ","eee seat capacity","yearly intake of eee department","let student capacity in electrical and electronics department"," let seat capacity of eee"],
+ "responses":["Electrical and Electronics Engineering B. Tech. degree programme has a yearly intake of 66 (60 + 6 LET)  students"]
+},
+
+    {"tag": "mechseatcapacity",
+"patterns": ["what is the total seat capacity of mechanical engineering","number of seats of mech department","mech seat capacity","yearly intake of me","let student capacity in mechanical department"," let seat capacity of mech"],
+ "responses":["Mechanical Engineering B. Tech. degree programme has a yearly intake of 66 (60 + 6 LET)  students"]
+},
+
+    {"tag": "ecseatcapacity",
+"patterns": ["what is the total seat capacity electronics department","number of seats of ec department","ec seat capacity","yearly intake of ec","let student capacity in electronics department"," let seat capacity of ec"],
+ "responses":["Currently the intake for the B.Tech Electronics and Communication Engineering course is 120 with an additional intake of 12 students through lateral entry scheme in the third semester"]
+},
+   {"tag": "csseatcapacity",
+"patterns": ["what is the total seat capacity of computer science","number of seats of cs department","cs seat capacity","yearly intake of cs","let student capacity in computer science","let seat capacity of cs"],
+ "responses":["Computer Science and Engineering B. Tech. degree programme has a yearly intake of 66 (60 + 6 LET)  students"]
+},
+
+{"tag": "staffadvisorofeeesecondyear",
+"patterns": ["staff advisor of eee second year ","who is in charge of second year eee class","staff advisor of eee 2nd year","who is in charge of 2nd year eee class"],
+ "responses":["Avinash Nelson A and Sivadasan K V  "]
+},
+
+{"tag": "staffadvisorofeeethirdyear",
+"patterns": ["staff advisor of eee third year","who is in charge of third year eee class","staff advisor of eee 3rd year","who is in charge of 3rd year eee class"],
+ "responses":["Nithin Raj and Resnitha K S   "]
+},
+
+{"tag": "staffadvisorofeeefourthyear",
+"patterns": ["staff advisor of eee fourth year","who is in charge of fourth year eee class","staff advisor of eee 4th year"],
+ "responses":["Rajil and Sheeba Paulose"]
+},
+
+{"tag": "staffadvisorofmechfirstyear",
+"patterns": ["staff advisor of mech first year ","who is in charge of first year me class","staff advisor of mech 1st year","who is in charge of 1st me class","staff advisor of 1st year mech class"],
+ "responses":["Sailesh R and Sahid I  "]
+},
+
+{"tag": "staffadvisorofmechsecondyear",
+"patterns": ["staff advisor of mech second year ","who is in charge of second year me class","staff advisor of mech 2nd year","who is in chage of 2nd year mech class"],
+ "responses":["Vipin Champatan and Rithin Raj V R  "]
+},
+
+{"tag": "staffadvisorofmechthirdyear",
+"patterns": ["staff advisor of mech third year ","who is in charge of third year me class","who is in charge if 3rd year mech class","advisor of 3rd year mech class"],
+ "responses":["Laiju Lukose and Muhammed Shafeeq E Y  "]
+},
+
+{"tag": "staffadvisorofmechfourthyear",
+"patterns": ["staff advisor of mech fourth year","who is in charge of fourth year me class"],
+ "responses":["Ahammed Kabeer V P "]
+},
+
+{"tag": "ktucoordinator",
+"patterns": ["who is the KTU coordinator","name of ktu coordinator","ktu coordinator of college","whome should i visit for contacting ktu"],
+ "responses":["Smitha Karunan  "]
+},
+
+{"tag": "secuirityroom",
+"patterns": ["where is the secuirity room ","security cabin location"],
+ "responses":["ground floor of main block  "]
+},
+
+{"tag": "sergeantroom",
+"patterns": ["where is the sergeant room ","sergeant cabin location"],
+ "responses":["ground floor of main block "]
+},
+
+{"tag": "nssroom",
+"patterns": ["where is the nss room ","nss room location"],
+ "responses":["ground floor of main block  "]
+},
+
+{"tag": "facultyroomofeee",
+"patterns": ["faculty room of eee"," staffroom of eee ","from where can i visit teachers of eee"],
+ "responses":["first floor of main block  "]
+},
+
+
+{"tag": "hodroomofme",
+"patterns": ["HOD room of mech","head of department room of mech ","me hod room"],
+ "responses":["first floor of main block "]
+},
+
+{"tag": "hodroomofeee",
+"patterns": ["HOD room of eee","head of department room of eee ","electrical engineering hod room"],
+ "responses":["second floor of main block  "]
+},
+
+{"tag": "principalroom",
+"patterns": ["where is principal room ","where can i visit principal","principal cabin"],
+ "responses":["second floor of main block "]
+},
+
+{"tag": "conferenceroom",
+"patterns": ["where is conference room ","location conference room"],
+ "responses":["second floor of main block  "]
+},
+
+{"tag": "recordroom",
+"patterns": ["where is record room "],
+ "responses":["second floor of main block  "]
+},
+
+{"tag": "administrativeoffice",
+"patterns": ["where is administrative room  ","administrative office location"],
+ "responses":["second floor of main block  "]
+},
+
+{"tag": "facultyroomofme",
+"patterns": ["faculty room of mech"," staffroom of mech ","where can i visit teachers of mech department"],
+ "responses":["first floor and  third floor of main block  "]
+},
+
+{"tag": "ccf",
+"patterns": ["central computing facility of gecw ","ccf","ccf location"],
+ "responses":["first floor of main block"]
+},
+
+{"tag": "universityexaminationroom",
+"patterns": [" university examination room","where is the university examination room ","exam cell location","exam control room of gecw"],
+ "responses":["first floor of main block"]
+},
+
+{"tag": "ptaoffice",
+"patterns": ["where is pta office ","pta office location"],
+ "responses":["third floor of main block  "]
+},
+
+{"tag": "hosteloffice",
+"patterns": ["where is hostel office ","hostel office room location"],
+ "responses":["third floor of main block"]
+},
+
+{"tag": "appliedsciencedepartment",
+"patterns": ["where is applied science department ","applied science department staff room","location of applied science department"],
+ "responses":["third floor of main block  "]
+},
+
+{"tag": "facultyroomofpe",
+"patterns": ["where is PE room ","faculty room of pe"],
+ "responses":["third floor of main block  "]
+},
+
+{"tag": "seriesexamroom",
+"patterns": ["where is series exam room ","location of series exam room"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "hardwarelab",
+"patterns": ["where is hardware lab ","hardware lab location"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "projectlab",
+"patterns": ["where is project lab ","project lab location"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "softwarelab",
+"patterns": ["where is software lab","software lab location"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "multimedialab",
+"patterns": ["where is multimedia lab","location of multimedia lab"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "languagelab",
+"patterns": ["where is language lab","location of language lab"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "departmentlibrary",
+"patterns": ["where is department library","location department library"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "cseprofessorfacultyroom",
+"patterns": ["where is cse professor faculty room","cs staff room","cse department staff room for teachers"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "appliedsciencefacultyroom",
+"patterns":["where is applied science faculty room","location of applied science faculty room"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "contentgenerationcenter",
+"patterns": ["where is content generation center ","location of content generation center"],
+ "responses":[" ground floor of academic block "]
+},
+
+{"tag": "computerprogrammerroom",
+"patterns": ["computer programmer room","where is computer programmer room"],
+ "responses":["ground floor of academic block  "]
+},
+
+{"tag": "virtualclassroomlocation",
+"patterns": ["where is virtual class room ","location of virtual class room"],
+ "responses":["first floor of academic block  "]
+},
+
+{"tag": "csefacultyroom1",
+"patterns": ["where is csefacultyroom1","location of cse faculty room 1"],
+ "responses":["first floor of academic block  "]
+},
+
+{"tag": "cseconferenceroom",
+"patterns": ["where is cse conference room","location of cse conference room"],
+ "responses":["first floor of academic block  "]
+},
+
+{"tag": "csefacultyroom2",
+"patterns": ["where is csefacultyroom1","location of cse faculty room 2"],
+ "responses":["first floor of academic block  "]
+},
+{"tag": "csehodroom",
+"patterns": ["where is cse hod room","where can i visit cs hod","location of cse hod room","where is cse head room","where is gilesh sir room"],
+ "responses":["first floor of academic block "]
+},
+
+{"tag": "networkswitchingcenter",
+"patterns": ["where is network switching center","location of network switching center"],
+ "responses":["first floor of academic block "]
+},
+
+{"tag": "secuiritylab",
+"patterns": ["where is security lab","location security lab"],
+ "responses":["first floor of academic block  "]
+},
+
+{"tag": "networklab",
+"patterns": ["where is network lab ","location of network lab"],
+ "responses":["first floor of academic block "]
+},
+
+{"tag": "ladiesamenityroom",
+"patterns": ["where is ladies amenity room ","location girls rest room","prayer room location","girls refreshment room"],
+ "responses":["first and second floor of academic block  "]
+},
+
+{"tag": "csefacultyroom3",
+"patterns": ["where is cse faculty room 3","cse faculty room location"],
+ "responses":["first floor of academic block  "]
+},
+
+{"tag": "recordroom",
+"patterns": ["where is record room "],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "digitalelectronicslab",
+"patterns": ["where is digital electronics lab ","location of digital electronics lab"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "communicationengineeringlab",
+"patterns": ["where is communication engineering lab ","location of communication engineering lab"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "ecefacultyroom1",
+"patterns": ["where is ece faculty room1","location ece staff room","where can i visit ece department teachers"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "ecehodroom",
+"patterns": ["where is ece hod room","location of ece hod room"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "upsroom",
+"patterns": ["where is ups room ","location of ups room"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "digitalsignalprocessingroom",
+"patterns": ["where is digital signal processing room ","location of digital signal processing room"],
+ "responses":[" second floor of academic block"]
+},
+
+{"tag": "designandautomationlab",
+"patterns": ["where is design and automation lab ","location of design and automation lab"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "ecefacultyroom2",
+"patterns": ["where is ece faculty room2 ","ece staff room"],
+ "responses":[" second floor of academic block  "]
+},
+
+{"tag": "storeroom",
+"patterns": ["where is store room ","location of store room"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "ecevirtualclassroom",
+"patterns": ["where is ece virtual class room ","location of ece virtual class room"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "pglab2",
+"patterns": ["where is pglab2 ","location pg lab 2"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "ecedepartmentlibrary",
+"patterns": [" where is ece department library ","location ece department library"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "ecefacultyroom",
+"patterns": ["where is ece faculty room ","ece teachers room"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "documentationroom",
+"patterns": ["where is documentation room ","location of documentation room"],
+ "responses":[" third floor of academic block "]
+},
+
+{"tag": "electroniccircuitlab",
+"patterns": ["where is electronic circuit lab ","electronics circuit lab location"],
+ "responses":[" third floor of academic block"]
+},
+
+{"tag": "linearintegratedcircuitlab",
+"patterns": ["where is linear integrated circuit lab ","linear integrated circuit lab location"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "maintenancecell",
+"patterns": ["where is maintenance cell ","location of maintenance cell in college"],
+ "responses":[" third floor of academic block  "]
+},
+
+{"tag": "canteen",
+"patterns": ["location of canteen ","where is college canteen located","college canteen place in college"],
+ "responses":[" Ground floor of Amenity block "]
+},
+
+{"tag": "atm",
+"patterns": ["location of ATM ","where is atm facility in college","how can i reach to college atm"],
+ "responses":["ground floor of Amenity block "]
+},
+
+{"tag": "meterialtestinglab",
+"patterns": ["location of material testing lab ","where is material testing lab"],
+ "responses":[" ground floor of Amenity block "]
+},
+
+{"tag": "classroommtech",
+"patterns": ["location of classroom of M.Tech ","where is m tech class rooms"],
+ "responses":[" first floor of Amenity block "]
+},
+
+{"tag": "careerguidanceandplacementunit",
+"patterns": ["location of career guidance and placementunit","career guidance and placement unit ","where is placement cell in college"],
+ "responses":[" first floor of Amenity block "]
+},
+
+{"tag": "pgresearchlab",
+"patterns": ["location of pg research lab ","where is pg research lab"],
+ "responses":["second floor of Amenity block "]
+},
+
+{"tag": "vechicleparkingareaforstudents",
+"patterns": ["location of vehicle parking area for students ","where can i park my car or bike","student parking facility","bike parking"],
+ "responses":["opposite of Amenity block "]
+},
+
+{"tag": "vechileparkingareaforstaffs",
+"patterns": ["location of vehicle parking area for staffs ","where is staff bike or car parking","staff parking"],
+ "responses":["main block and academic block  "]
+},
+
+{"tag": "scholarship",
+"patterns": ["what are the scholarships available in college ","different scholarships in college ","scholarships in college for students ","list of scholarships","scholarships","sholarship list"],
+ "responses":["E-grantz ,Merit cum means,Central scheme of  scholarship,AICTE pragati scholarship for girl,AICTE saksham scholarship,CH Muhammed Koya scholarship,Siemens scholarship"]
+},
+
+ {"tag": "egrantz",
+   "patterns": ["what are the documents needed for applying e-grantz ","e grants applying","e-grantz","egrantz","e grantz"],
+ "responses":["Application form ,Caste certificate,Income certificate,SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo"]
+},
+    {"tag": "centralschemeofscholarship",
+      "patterns": ["what are the documents needed for applying central scheme of scholarship","applying for central scheme of scholarship","central scheme of scholarship"],
+      "responses":["Application form , Caste certificate,Income certificate, SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo ,Bonafede certificate"]
+     },
+    {"tag": "chmuhammedkoya",
+      "patterns": ["what are the documents needed for applying CH Muhammed Koya scholarship","ch muhammed koya"],
+ "responses":["Application form , Caste certificate,Income certificate,SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo ,Bonafede certificate"]
+},
+{"tag": "saksham",
+  "patterns": ["what are the documents needed for AICTE Saksham scholarship","saksham"],
+ "responses":["Application form ,Caste certificate,Income certificate,SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo,Bonafede certificate,Receipt of paid tuition fee for the current academic year, Parent declaration certificate,Certificate of disabilityissued by competent authority as per the format specified by the State Government"]
+},
+   {"tag": "pragati",
+     "patterns": ["what are the documents needed for AICTE Pragati  scholarship for girls","pragati"],
+ "responses":["Application form , Caste certificate,Income certificate,SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo,Bonafede certificate,Receipt of paid tuition fee for the current academic year,Parent declaration certificate"]
+},
+    {"tag": "siemens",
+      "patterns": ["what are the documents needed for applying siemens scholarship", "documents needed for applying siemens ","siemens"],
+ "responses":["Application form , Caste certificate,Income certificate,SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo,Bonafede certificate"]
+},
+    {"tag": "mcm",
+      "patterns": ["what are the documents needed for applying merit cum means scholarship", "documents needed for applying mcm ","mcm","mcm scholarship","merit cum means"],
+ "responses":["Application form , Caste certificate,Income certificate,SSLC mark list,+2 mark list,Bank pass book front page copy with IFSC code and account number(self attested),Aadhaar card copy,Allotment memo,Bonafede certificate"]
+},
+    {"tag": "hosteltime",
+"patterns": ["what time does the hostel closes ","hostel closing time","hostel timing","hostel time","how long students can spent outside the hostel"],
+ "responses":["Hostel opens at 6.00 am and closes at 9.30 pm (same for both Men's and Ladies hostel"]
+},
+    {"tag": "dean",
+"patterns": ["who is the dean of college","dean name","name of college dean"],
+ "responses":["Dr.K Suresh"]
+},
+    {"tag": "hostelstrength",
+"patterns": ["what is the total hostel strength","Total seats of Men's hostel","Total seats of Ladies hostel","Men's hostel strength","ladies hostel strength","hostel capacity","number students of hostels","capacity of hostels","how many students got allowed to hostels each year"],
+ "responses":["Ladies Hostel I – 160 ,Ladies Hostel II - 160 ,Mens Hostel – 240"]
+},
+    {"tag": "hosteladmission",
+"patterns": ["what is the hostel admission criteria","seat allocation of hostel","how seats are allocated in hostel","how someone is allocated in college","how seats are allocated to applicants","what is the selection criteria in hostels"],
+ "responses":["Hostel  seats will be allotted to all applicants without any restriction for students belonging to sc / st / ph / bpl / Other states / govt of india nominees categories coming under priority (1) The condition that admission in the general category should be on the basis of merit and distance is switched to based on merit and family annual income"]
+},
+    {"tag": "hostelfee",
+"patterns": ["what is the hostel admission fee","hostel fee structure","hostel monthly fees","total hostel fee","Mh hostel fee","Lh hostel fee","give me the fare in college hostel"],
+ "responses":["Mess Advance : 6000 (refundable) (SC/ST students exempted) Caution Deposit : 2000 (refundable) Hostel Development Fund : 1000 (non-refundable) Total : 9000 ,Monthly hostel fee is variable (depends on number of days stayed on hostel)"]
+},
+    {"tag": "ragging",
+"patterns": ["is college ragging free","is there any ragging in college","ragging"],
+ "responses":["College is free of ragging and have strict rules against ragging"]
+},
+    {
+ "tag": "anjusanand",
+ "patterns":["details of Anju S Anand  ","phone number of Anju S Anand ","email id of Anju S Anand ","anju s anand"],
+ "responses":[ "Anju S Anand Assistant Professor M.Tech 9995448613 anjusanand@gecwyd.ac.in" ]
+},
+
+{
+ "tag": "jinujayachandran",
+ "patterns":["details of Jinu Jayachandran  ","phone number of Jinu Jayachandran ","email id of Jinu Jayachandran  ","jinu jayachandran"],
+ "responses":["Jinu Jayachandran Assistant Professor M.Tech 9496281957 jinuj@gmail.com  "]
+},
+
+{
+ "tag": "sreeramr",
+ "patterns":["details of Sreeram R  ","phone number of Sreeram R ","email id of Sreeram R ","sreeram r"],
+ "responses":[ "Sreeram R Assistant Professor M.Tech 9656567520 sreeramr@gecwyd.ac.in" ]
+},
+
+{
+ "tag": "somanp",
+ "patterns":["details of Soman P  ","phone number of Soman.P ","email id of Soman.P","soman  p"],
+ "responses":[" Soman.P Assistant Professor M.Tech 8095487048 somswyd@gecwyd.ac.in "]
+},
+
+{
+ "tag": "mohamednisarpk",
+ "patterns":["details of Mohamed Nisar P K   ","phone number of Mohamed Nisar P K  ","email id of Mohamed Nisar P K  ","Mohamed Nisar P K "],
+ "responses":[" Mohamed Nisar P K (on Leave) Assistant Professor M.Tech 9809969005 pkmohdnisar@gecwyd.ac.in " ]
+},
+
+{
+ "tag": "anumathew",
+ "patterns":["details of Anu Mathew  ","phone number of Anu Mathew ","email id of Anu Mathew  ","anu mathew"],
+ "responses":[ "Anu Mathew Assistant Professor M.Tech 9495157099 anumathew@gecwyd.ac.in" ]
+},
+
+{
+ "tag": "nirmaljoseph",
+ "patterns":["Nirmal Joseph",  "details of Nirmal Joseph  ","phone number of Nirmal Joseph","email id of Nirmal Joseph"],
+ "responses":[" Nirmal Joseph Assistant Professor M.Tech 9809913535 nirmaljoseph@gecwyd.ac.in"  ]
+},
+
+
+{
+ "tag": "nikhilm",
+ "patterns":["details of Nikhil M","phone number of Nikhil M","email id of Nikhil M","nikhil m"],
+ "responses":[" Nikhil M Assistant Professor M.Tech 9446329432 nikhilm@gecwyd.ac.in"  ]
+},
+
+{
+ "tag": "jobinjose",
+ "patterns":["details of Jobin Jose  ","phone number of Jobin Jose ","email id of Jobin Jose","Jobin Jose"],
+ "responses":[" Jobin Jose Assistant Professor M.Tech 9567423938 jobinjose@gecwyd.ac.in"  ]
+},
+
+{
+ "tag": "sajithk",
+ "patterns":["details of Sajith K  ","phone number of Sajith K","email id of Sajith K ","sajith k"],
+ "responses":[" Dr. Sajith K Assistant Professor PhD 9526663412 sajith.k@gecwyd.ac.in"  ]
+},
+
+{
+ "tag": "ashaprasad",
+ "patterns":["details of Asha Prasad   ","phone number of Asha Prasad ","email id of Asha Prasad","asha prasad"],
+ "responses":[" Asha Prasad Assistant Professor M.Tech 9496334336 asha@gecwyd.ac.in"  ]
+},
+
+{
+ "tag": "muhammedfasilc",
+ "patterns":["details of Muhammed Fasil C  ","phone number of  Muhammed Fasil C","email id of Muhammed Fasil C","Muhammed Fasil C"],
+ "responses":[" Muhammed Fasil C Assistant Professor M.Tech 8891848303 muhammedfasil@gecwyd.ac.in"]
+},
+
+{
+ "tag": "drkavyats",
+ "patterns":["dr kavya t s","details of  Dr. Kavya T S ","phone number of Dr. Kavya T S ","email id of Dr. Kavya T S "],
+ "responses":["Dr. Kavya T S Assistant Professor(Adhoc) PhD nithinjosee7@gmail.com "  ]
+},
+
+{
+ "tag": "subairahammadkm",
+ "patterns":["details of Subair Ahammad K M  ","phone number of Subair Ahammad K M ","email id of Subair Ahammad K M  "],
+ "responses":["subair ahammad k m","Subair Ahammad K M Assistant Professor(Adhoc) M.Tech"  ]
+},
+
+{
+ "tag": "lubaibp",
+ "patterns":["lubaib p","details of Lubaib P   ","phone number of Lubaib P","email id of Lubaib P "],
+ "responses":[" Lubaib P Assistant Professor (Adhoc) M.Tech 9745465434 "  ]
+},
+
+{
+ "tag": "soumyanv",
+ "patterns":["soumya n v","details of Soumya N V  ","phone number of Soumya N V","email id of Soumya N V "],
+ "responses":["Soumya N V Assistant Professor(Adhoc)  M.Tech 9496057106 "  ]
+},
+
+{
+ "tag": " nithinjosek",
+ "patterns":["nithin jose k","details of  Nithin Jose K  ","phone number of  Nithin Jose K","email id of  Nithin Jose K "],
+ "responses":[" Nithin Jose K Assistant Professor(Adhoc)  M.Tech 9946890560 "  ]
+},
+
+{
+ "tag": "balann",
+ "patterns":["balan n","details of Balan N   ","phone number of Balan N","email id of Balan N "],
+ "responses":["Balan N. Trade Instructor 9037750432 bnelliyeri@yahoo.co.in "  ]
+},
+
+    {
+      "tag": "mechestablishmentyear",
+      "patterns": ["which year mech department got established in this college","me department started in which year"],
+      "responses":["2014"]
+    },
+
+{
+ "tag": "antonypk",
+ "patterns":["antony pk","details of Antony P. K.  ","phone number of Antony P. K.","email id of Antony P. K. "],
+ "responses":[" Antony P. K. Trade Instructor 9497762990 antonyklkm@gmail.com"  ]
+},
+
+{
+ "tag": "shameenapm",
+ "patterns":["shameena p m","details of Shameena P M  ","phone number of Shameena P M ","email id of Shameena P M "],
+ "responses":["Shameena P M,Trade Instructor 9288906126 shameenapm@gmail.com "  ]
+},
+
+{
+ "tag": "sureshbabup",
+ "patterns":["suresh babu p","details of Sureshbabu P  ","phone number of Sureshbabu P ","email id of Sureshbabu P "],
+ "responses":["Sureshbabu P Trade Instructor 9048671532 sureshbabumgm@gmail.com "  ]
+},
+
+{
+ "tag": "robinbasilh",
+ "patterns":["robin basil h","details of Robin Basil H  ","phone number of Robin Basil H ","email id of Robin Basil H "],
+ "responses":["Robin Basil H Tradesman 9744195568 robinbasil@gecwyd.ac.in"  ]
+},
+
+{
+ "tag": "jomonjoseph",
+ "patterns":["jomon joseph","details of Jomon Joseph  ","phone number of Jomon Joseph","email id of Jomon Joseph "],
+ "responses":["Jomon Joseph Instructor Gr. II (Adhoc) 9656512149 jomonpulpally@gmail.com "  ]
+},
+
+{
+ "tag": "anjanacv",
+ "patterns":["anjana cv","details of  Anjana C V ","phone number of Anjana C V ","email id of Anjana C V "],
+ "responses":["Anjana C V Instructor Gr. II (Adhoc) 8281805414 anjanacv02@gmail.com "  ]
+},
+
+{
+ "tag": "murshidmp",
+ "patterns":["murshid mp","details of Murshid M P  ","phone number of Murshid M P ","email id of Murshid M P "],
+ "responses":["Murshid M P Tradesman (Adhoc) 7025347544 murshidmp44@gmail.com "  ]
+},
+    {
+      "tag":"principalgecw",
+      "patterns": [
+        "who is the principal",
+        " who is the principal of gecw",
+        "gecw principle",
+        "Government Engineering college principal",
+        "principal of college",
+        "who is college principal"],
+      "responses": [
+        "Dr.Anitha V.S",
+        "college principal is Dr.Anitha V.S",
+        "Dr.Anitha V.S is college Principal"
+        ]
+
+    },
+
+{
+ "tag":"praveenvk",
+ "patterns":["praveen k","details of  Praveen V K ","phone number of Praveen V K ","email id of Praveen V K "],
+ "responses":["Praveen V K Tradesman (Adhoc) 6282403469 pavinvk@gmail.com "  ]
+},
+
+{
+ "tag": "amruthapradeepkp",
+ "patterns":["amrutha pradeep kp","details of  Amrutha Pradeep K P ","phone number of Amrutha Pradeep K P ","email id of Amrutha Pradeep K P "],
+ "responses":["Amrutha Pradeep K P Tradesman (Adhoc) 7306003670 amruthapradeep007@gmail.com "  ]
+},
+
+{
+ "tag": "krishnendum",
+ "patterns":["krishnendu m","details of Krishnendu M  ","phone number of Krishnendu M ","email id of Krishnendu M "],
+ "responses":["Krishnendu M Tradesman (Adhoc) 7559803668 krishnendum315@gmail.com "  ]
+},
+
+{
+ "tag": "anaswaras",
+ "patterns":["anaswara s","details of Anaswara S  ","phone number of Anaswara S","email id of Anaswara S "],
+ "responses":["Anaswara S Tradesman (Adhoc) 7902755453 anaswaraanu559@gmail.com "  ]
+},
+    {
+      "tag": "abhilashps",
+      "patterns": ["abhilash p s","details of Abhilash P S  ", "phone number of Abhilash P S ", "email id of Abhilash P S  "],
+      "responses": [" Abhilash P S Tradesman (Adhoc) 8075317166 abhilashps011@gmail.com"]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["thanks for your help","thank you","see you late","thank you very much","so nice of you","good time","happy to see you"],
+      "responses": ["its my duty to help","my pleasure","happy to help","any time"]
+    },
+
+    {
+ "tag": "chairperson",
+ "patterns":[ " who is the chairperson of gecw"," chairperson ","college chairperson ","phone number of chairperson","gecw chairperson","email id of chairperson","email id and phone number of chairperson","chairperson","chairperson of gecw"],
+ "responses":["Shyamsundar P S ,phone number 9947206650, Email shyamsm466340@gmail.com "]
+},
+
+{"tag": "vicechairperson",
+"patterns": [" who is the vice chairperson of gecw"," vicechairperson ","college vice chairperson ","phone number of vice chairperson","gecw vicechairperson","email id of vice chairperson","email id and phone number of vice chairperson","vice chairperson","vice chairperson of gecw" ],
+ "responses":["Arunima S Pillai, 8137852667,arunima1019@gmail.com"]
+},
+
+{"tag": "generalsecretary",
+"patterns": [" who is the general secretary of gecw","  ","college general secretary   ","phone number of general secretary  ","gecw general secretary  ","email id of general secretary  ","email id and phone number of general secretary ","general secretary of gecw"],
+ "responses":["Bernad P S , 9847201315 , psbernad02@gmail.com"]
+},
+
+{"tag": "magazineeditor",
+"patterns": [" who is the magazine editor of gecw","magazine editor  ","college magazine editor ","phone number of magazine editor","gecw magazine editor","email id of magazine editor ","email id and phone number of magazine editor"," magazine editor of gecw" ],
+ "responses":["Muhammed Nihal ,7593915792 , mhmdnihal05@gmail.com"]
+},
+
+{"tag": "artsclubsecretary",
+"patterns": [" who is the arts club secretary of gecw","arts club secretary  ","college arts club secretary ","phone number of arts club secretary ","gecw arts club secretary ","email id of arts club secretary ","email id and phone number of arts club secretary ","arts club secretary of gecw" ],
+ "responses":["Afthar K P , 9447644747 , aftharfithu@gmail.com"]
+},
+
+{"tag": "uuc",
+"patterns": [" who is the uuc of gecw"," uuc ","UUC","college uuc ","phone number of uuc ","gecw uuc ","email id of uuc","email id and phone number of uuc","uuc of gecw"],
+ "responses":["Ebin Shaji , 8590660742 , ebzzeby22@gmail.com  and Anaswara S Sunil, 9745398206","anaswarassunil2000@gmail.com"]
+},
+
+{"tag": "girlsrepresentative",
+"patterns": [" who is the girls representative of gecw","  ","college girls representative ","phone number of girls representative ","gecw girls representative","email id of girls representative","email id and phone number of girls representative","girls representative of gecw" ],
+ "responses":["Athira K V , 9188496806 , anusharaghunathan98@gmail.com and Anju Sajeev , 9645099604 ,kanjusajeev@gmail.com"]
+},
+
+{"tag": "ugeeerepresentative",
+"patterns": [" who is the ug eee representative of gecw","  ","college ug eee representative ","phone number of ug eee representative ","gecw ug eee representative","email id of ug eee representative ","email id and phone number of ug eee representative ","UG EEE Representative","  ug eee representative of gecw" ],
+ "responses":["Sourav K S , 9961724685 , souravkottayil56@gmail.com"]
+},
+
+{"tag": "ugcserepresentative",
+"patterns": [" who is the ug cse representative of gecw","  ","college ug cse representative ","phone number of ug cse representative ","gecw ug cse representative","email id of ug cse representative ","email id and phone number of ug cse representative ","UG CSE Representative","  ug cse representative of gecw" ],
+ "responses":["Afra Musthafa , 9656529343 , aframusthafa20@gmail.com"]
+},
+
+{"tag": "ugmechrepresentative",
+"patterns": [" who is the ug mech representative of gecw","  ","college ug mech representative ","phone number of ug mech representative ","gecw ug mech representative","email id of ug mech representative ","email id and phone number of ug mech representative ","UG MECH Representative","  ug mech representative of gecw" ],
+ "responses":["Akash M S , 7012137447 , akashms994685@gmail.com"]
+},
+
+{"tag": "ugecerepresentative",
+"patterns": [" who is the ug ece representative of gecw","  ","college ug ece representative ","phone number of ug ece representative ","gecw ug ece representative","email id of ug ece representative ","email id and phone number of ug ece representative ","UG ECE Representative","  ug ece representative of gecw" ],
+ "responses":["Haripriya K , 7012838228 ,kharipriya360@gmail.com"]
+},
+
+{"tag": "pgecerepresentative",
+"patterns": [" who is the pg ece representative of gecw","  ","college ug ece representative ","phone number of pg ece representative ","gecw pg ece representative","email id of pg eee representative ","email id and phone number of pg eee representative ","PG ECE Representative","  pg ece representative of gecw" ],
+ "responses":["Sruthi Surendran , 9562569892 , sruthisurendranpv98@gmail.com"]
+},
+
+
+
+{"tag": "pgcserepresentative",
+"patterns": [" who is the pg cse representative of gecw","college pg cse representative ","phone number of pg cse representative ","gecw pg cse representative","email id of ug cse representative ","email id and phone number of pg cse representative ","PG CSE Representative","  pg cse representativeof gecw" ],
+ "responses":["Farha Jafer , 7994174996 , farhajafar97@gmail.com"]
+},
+
+
+
+{"tag": "cseseminarhall",
+"patterns": [" where is the cse seminar hall","  ","college cse seminar hall ","gecw cse seminar hall","seminarhall of gecw"],
+ "responses":["First floor of academic block"]
+},
+
+
+    {
+      "tag": "hatespeech",
+      "patterns": [
+        "go away",
+        "get lost",
+        "fuck",
+        "stupid",
+        "idiot",
+        "bloody bitch",
+        "you asshole",
+        "bloody begger",
+        "i dont want to see you again",
+        "fuckoff",
+        "dump",
+        "you are fool",
+        "you looser"
+      ],
+      "responses": ["sorry to hear that", "sorry for the inconvenience caused", "sorry, i will try to improve"]
+    },
+    {
+      "tag":"smalltalk",
+      "patterns": [
+        "how are you",
+        "how do you do",
+        "how you doing",
+        "what are you up today"],
+      "responses": [
+        "i am fine",
+        "thank you for asking,i am fine",
+        "all good "
+      ]
+    }
+]}
+
+
+
+
+
+
+
+
